@@ -1,0 +1,3408 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title></title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style.css" >
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/script.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Nunito:300,400" rel="stylesheet">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.1.135/jspdf.min.js"></script>
+
+
+      
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+<link rel="stylesheet" href="mystyle.css">
+
+
+
+<style>
+
+
+</style>
+
+
+<body>
+<div class="app" style= "margin-top: rem; position: ; z-index:200; height:;">
+<div class="closewindow" style= "margin-top:;">
+<span>x</span>
+</div>
+
+<h1>Vendas</h1>
+<div class= "scrollmenuB" style="height:100%;">
+<div class= "scrollmenuB" style= "height: 100%;">
+      <i class="fa fa-shopping-bag fa-3x" aria-hidden="true" ></i>
+    <p>É aconselhavel fazer cópias da tabela em PDF ou imprimi-la.</p>
+  <div class="tooltipshop">Artigo não inserido</div>
+  <div class="tooltipshop2">Choose a product</div>
+  
+<div id="target">
+  <div id="content">
+  <div class="app-body">
+<div id="print-area-4" class="print-area">
+<div class="fixA" style="width:44rem;">Tabela de Vendas</div>
+<!--Tabela com a lista de dados-->
+        
+            <table id="tblList" class="table table-bordered"></table>
+<style>
+table, th, td {
+  border:1px solid black; text-align:center;
+font-size: 1.2rem;
+}
+</style>
+
+<style>
+.ClickB{margin-top: rem; margin-left: %; background: #ddd; width: 40%; height:2.5rem; border-radius: 10px 10px 10px 10px; float: right;}
+</style>
+
+<style> 
+.ClickA{margin-top: rem; margin-left: %; background: #ddd; width: 40%; height:2.5rem; border-radius: 10px 10px 10px 10px; float: left;}
+</style>
+
+<style>
+.Pclick{ margin-left: %; margin-top: rem; background-color: white; padding:rem; width: 5rem; border: solid 4px; text-align: center;}
+</style>
+
+<style>
+.Pclick2{ margin-left: %; margin-top: rem; top:; background-color: white; padding:rem; width: 5rem; border: solid 4px; text-align: center;}
+</style>
+      </div>  
+      
+   </div></div></div></div>
+      <div class="container" style="height:100%;">
+    <h2>Salvar</h2>
+
+    <div class="tasks">
+      
+      
+
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Clique no 1° botão tanto para salvar PDF como imprimir. </label>
+      
+  </div>
+<script src="test.js"></script>    
+
+   <!-- <div class="openpopup">
+Ir para o checkout
+</div>-->
+
+    <button class="openpopup3" style="text-align:center;"><a class="no-print" href="javascript:printDiv('print-area-4');">Salvar PDF/ Imprimir</a></button>
+<button type="submit" onClick="refreshPage()" class="openpopup3" style= "background:;">Refresh Button</button>
+ 
+  
+ </div>
+</div></div>
+
+
+
+<div class="app2" style= "margin-top: rem; position: fixed; height:100%; z-index:300;">
+
+<h2>Confimar</h2>
+<div class= "scrollmenuB" style= "height: 100%;">
+      <i class="fa fa-check-circle fa-3x" aria-hidden="true" ></i>
+    <p>Conclua a venda ao clicar no botão</p>
+  <div class="tooltipshop">Artigo não inserido</div>
+  <div class="tooltipshop2">Choose a product</div>
+  
+<div id="target">
+  <div id="content">
+  <div class="app-body">
+<button type="submit" onClick="refreshPage()" class="openpopup3" style= "background:;">Concluir</button>
+   
+   </div></div></div>
+      <div class="container" style= "height:100%;">
+    <h2>"Deus Abençoe!"</h2>
+    <div class="tasks">
+      <div style="display: flex;justify-content: space-between">
+      </div>
+
+    
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label"></label>   
+  </div>
+<script src="test.js"></script>
+
+
+  
+
+ </div>
+</div></div></div>
+
+
+<div class="app2b" style= "margin-top: rem; position: fixed; height:100%; z-index:200;">
+
+<div class="closewindow" style= "margin-top:; z-index:200;">
+<span>x</span>
+</div>
+<div class= "scrollmenuB" style= "height: 100%;">
+<h1>"AVISO"</h1>
+<h2>Apagar</h2>
+<div class= "scrollmenuB" style= "height: 100%;">
+      <i class="fa fa-warning fa-3x" aria-hidden="true" ></i>
+    <p>Estar ciente de que:</p>
+    <p>Uma vez que clicado, o botão Limpar Histórico Local apagará o Histórico Local da página.</p>
+<p>Apagando assim as vendas, número do estoque, assim por diante.</p>
+<h2>Caso a decisão seja</h2><h2>apagar o Histórico</h2>
+<p><strong>É aconselhavel fazer cópias em PDF ou impressas </strong>das tabelas com as quantidades, vendas e as atualizações contidas nelas, antes de limpar o Histórico.</p>
+  <div class="tooltipshop">Artigo não inserido</div>
+  <div class="tooltipshop2">Choose a product</div>
+  
+<div id="target">
+  <div id="content">
+  <div class="app-body">
+
+      
+   </div></div></div></div>
+      <div class="container">
+    <h2>Limpar Histórico Local</h2>
+<h1>"AVISO"</h1>
+    <div class="tasks">
+      <div style="display: flex;justify-content: space-between">
+       
+      
+
+      
+</div>
+    
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Clicando neste botão o Histórico Local deste site será apagado</label>
+      
+  
+<script src="test.js"></script>
+
+   
+      
+<div class="openpopup2">
+empty
+</div>
+ 
+
+  <button type="submit" onClick="refreshPage()" class="openpopup3" style= "background:;">Refresh Button</button>
+
+ </div>
+</div></div></div></div>
+
+
+<div class="app2f" style= "margin-top: rem; position: fixed; height:100%; z-index:200;">
+
+
+<div class= "scrollmenuB" style= "height: 100%;">
+<h1>"A Paz de Deus!"</h1>
+<h2>Acesso</h2>
+<div class= "scrollmenuB" style= "height: 100%;">
+      <i class="fa fa-warning fa-3x" aria-hidden="true" ></i>
+    <p></p>
+    <p>Preencha o campo abaixo com o código de assesso.</p>
+<p></p>
+<h2></h2><h2></h2>
+<p><strong></strong></p>
+  <div class="tooltipshop">Artigo não inserido</div>
+  <div class="tooltipshop2">Choose a product</div>
+  
+<div id="target">
+  <div id="content">
+  <div class="app-body">
+
+      
+   </div></div></div></div>
+      <div class="container">
+    <h2>"Deus abençoe!"</h2>
+<h1></h1>
+    <div class="tasks">
+      <div style="display: flex;justify-content: space-between">
+       
+      
+
+      
+</div>
+    
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Escreva abaixo o código de acesso</label>
+      
+  
+<script src="test.js"></script>
+
+   
+    <p>
+<!-- This section contains the input box for the user to enter the code for access. --> 
+<div class="container">
+    <div>
+      <label>Enter your passcode</label><br />
+      <input type="password" name="password" maxlength="4" class="inputField1" id="password" placeholder="enter code here" required/>
+
+    </div>    
+
+
+    <!-- This is the "Submit" button that will call the "onSubmit" function on the javascript page. -->
+    <button class="button1" id="button1" style= "background: #000;" onclick="onSubmit()">Submit</button>
+    <br><br>
+
+    <!-- This is the second button, it's hidden until the correct code is entered in the input text box from above. --> 
+    <a target="_blank" class="button2" id="button2" >Access Granted<div class="closewindow" style= "margin-top:; z-index:200;">
+<span>x</span>
+</div> <br/> <br/></a>  	  
+ <!-- Closing the "container" div.-->
+
+</div>
+<!--NOTE:-->
+<!-- 
+    if you changed the passcode length on the "script.js" page, make sure to adjust the length 
+		on this page at the "maxlength" setting above. 
+------------------------------------------------------------------------------------------------
+      Javascript reference. 
+      This must be at the bottom of the page. 
+      It cannot be placed in the "Head" section.
+-->
+  <script  src="./script.js"></script>
+
+  
+
+ 
+
+  <button type="submit" onClick="refreshPage()" class="openpopup3" style= "background:;">Refresh Button</button>
+
+ </div>
+</div></div></div></div>
+
+
+
+<div class="app2e" style= "margin-top: rem; position: fixed; z-index:200;">
+<div class="closewindow" style= "margin-top:;">
+<span>x</span>
+</div>
+<h1>Almoxarifado</h1>
+
+<!--<p>Clique no botão abaixo para confirmar as alterações nos valores da quantidade a repor.</p>-->
+            
+
+<!--<button type="button" class="store btn btn-success btn-lg fa fa-check-circle " style= "font-size: 2em;
+ line-height: 1.2; padding: 0.5em var(--padding-x); text-align: center; color: white;"></button>-->
+
+<div class= "scrollmenuB" style= "height: 8.5rem;">
+<table style="width:100%">
+<div class="fixA" style="width:58rem; font-size: 1.2rem;">Arraste este cabeçário quando arrastar a tabela.</div>
+<tr>
+    <th>Coluna_1</th>
+    <th>_Coluna_2_</th>
+    <th>_Coluna_3__</th>
+    <th>Coluna_4</th>
+    <th>_Coluna_5_</th>
+<th>Coluna_6</th>
+<th>_Coluna_7_</th>
+<th>Coluna_8</th>
+   <th>Coluna_9</th>
+  </tr>
+  <tr>
+   <th>Código</th>
+    <th>Produto</th>
+    <th>Qtd. Caixa</th>
+    <th>Valor Caixa</th>
+       <th>Valor Und.</th>
+    <th>Qtd. Compras</th>
+    <th>Data da Compra</th>
+<th>Estoque Atual</th>
+<th>Reposição</th>  
+  </tr>
+</table></div>
+
+<div class= "scrollmenuB" style= "height: 100%;">
+<div class= "scrollmenuB" style= "height: 100%;">
+      <!--<i class="fa fa-percent fa-3x" aria-hidden="true" ></i>-->
+<p>Nesta Tabela podemos verificar os produtos usados nesta casa de oração.</p>
+<p>Podemos conferir o estoque e a nescessidade de reposição.</p>
+    <p>É aconselhavel fazer cópias da tabela em PDF ou imprimi-la.</p>
+  <div class="tooltipshop">Artigo não inserido</div>
+  <div class="tooltipshop2">Choose a product</div>
+  
+<div id="target">
+  <div id="content">
+  <div class="app-body">
+<!--<p>Clique no botão abaixo para confirmar as alterações nos valores da quantidade a repor.</p>-->
+            
+
+<!--<button type="button" class="store btn btn-success btn-lg fa fa-check-circle " style= "font-size: 2em;
+ line-height: 1.2; padding: 0.5em var(--padding-x); text-align: center; color: white;"></button>-->
+
+<div id="print-area-10" class="print-area">
+<div class="fixA" style="width:58rem;">Almoxarifado- Atualizado dia: 06/09/2022</div>
+<!--Tabela com a lista de dados-->
+        <style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+            <table style="width:100%">
+<tr>
+    <th>Coluna_1</th>
+    <th>Coluna_2</th>
+    <th>Coluna_3</th>
+    <th>Coluna_4</th>
+    <th>Coluna_5</th>
+<th>Coluna_6</th>
+<th>Coluna_7</th>
+<th>Coluna_8</th>
+   <th>Coluna_9</th>
+   
+  </tr>
+
+  <tr>
+     <th>Código</th>
+    <th>Produto</th>
+    <th>Qtd. Caixa</th>
+    <th>Valor Caixa</th>
+       <th>Valor Und.</th>
+    <th>Qtd. Compras</th>
+    <th>Data da Compra</th>
+<th>Estoque Atual</th>
+<th>Reposição</th>   
+  </tr>
+
+  <tr>
+<td>××</td>
+    <td>Alcool Gel</td>
+    <td>8</td>
+   
+<td>R$80</td>
+
+   <td>R$10</td>
+   
+<td>1 caixa</td>
+
+<td>06/09/2022</td>
+
+<td>13 un.</td>
+
+<td> <div style= "padding: 30%; background: blue; color: white;">OK</div></td>
+  </tr>
+
+
+   <tr>
+<td>××</td>
+    <td>Alcool Líquido</td>
+    <td>-</td>
+   
+<td>-</td>
+
+   <td>R$10</td>
+   
+<td>3</td>
+
+<td>03/08/2022</td>
+
+<td>1 un.</td>
+
+<td> <div style= "padding: 30%; background: red; color: white;">Precisa Repor</div></td>
+  </tr>
+
+
+
+    <tr>
+<td>××</td>
+    <td>Copo descartavel</td>
+    <td>10 embalagens com 100</td>
+   
+<td>R$30</td>
+
+   <td>R$3 cada embalagem</td>
+   
+<td>3 caixa</td>
+
+<td>03/08/2022</td>
+
+<td>1/2 caixa</td>
+
+<td> <div style= "padding: 30%; background: red; color: white;">Precisa Repor</div></td>
+  </tr>
+
+ <tr>
+<td>××</td>
+    <td>Copos Pulpito</td>
+    <td>20</td>
+   
+<td>R$40</td>
+
+   <td>R$2</td>
+   
+<td>3 caixas</td>
+
+<td>06/09/2022</td>
+
+<td>73 un.</td>
+
+<td> <div style= "padding: 30%; background: blue; color: white;">OK</div></td>
+  </tr>
+
+
+ <tr>
+<td>××</td>
+    <td>Papel Toalha</td>
+    <td>6</td>
+   
+<td>R$30</td>
+
+   <td>R$5</td>
+   
+<td>4 fardos</td>
+
+<td>03/08/2022</td>
+
+<td>3 un.</td>
+
+<td> <div style= "padding: 30%; background: red; color: white;">Precisa Repor</div></td>
+  </tr>
+
+ <tr>
+<td>××</td>
+    <td>Papel Higiênico</td>
+    <td>6</td>
+   
+<td>R$30</td>
+
+   <td>R$5</td>
+   
+<td>4 caixas</td>
+
+<td>06/09/2022</td>
+
+<td>10 un.</td>
+
+<td> <div style= "padding: 30%; background: blue; color: white;">OK</div></td>
+  </tr>
+
+ <tr>
+<td>××</td>
+    <td>Sabão Liquido/ Espuma</td>
+    <td>-</td>
+   
+<td>-</td>
+
+   <td>R$20</td>
+   
+<td>1 galão</td>
+
+<td>05/06/2022</td>
+
+<td>1/2 un.</td>
+
+<td> <div style= "padding: 30%; background: blue; color: white;">OK</div></td>
+  </tr>
+
+ <tr>
+<td>××</td>
+    <td>Vassoura</td>
+    <td>-</td>
+   
+<td>-</td>
+
+   <td>-</td>
+   
+<td>-</td>
+
+<td>06/09/2022</td>
+
+<td>6 un.</td>
+
+<td> <div style= "padding: 30%; background: blue; color: white;">OK</div></td>
+  </tr>
+
+
+
+</table>
+        
+    
+<style>
+table, th, td {
+  border:1px solid black; text-align:center;
+}
+</style>
+      </div>  
+      
+   </div></div></div></div>
+      <div class="container" style="height:100%;">
+ <h2>Salvar</h2>
+
+    <div class="tasks">
+<div style="display: flex;justify-content: space-between">
+        <div class="form-check">
+
+</div></div>
+        <div class="form-check">
+          
+        </div>
+      
+
+      <div style="display: flex;justify-content: space-between">
+        <div class="form-check">
+          
+          <label class="form-check-label" for="done">
+            
+          </label>
+        </div>
+        <div class="form-check">
+          
+        </div>
+      </div>
+
+      
+
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Clique no botão tanto salvar PDF como imprimir. </label>
+      
+  </div>
+<script src="test.js"></script>    
+
+   <!-- <div class="openpopup">
+Ir para o checkout
+</div>-->
+
+
+
+    <button class="openpopup3" style="text-align:center;"><a class="no-print" href="javascript:printDiv('print-area-10');">Salvar PDF/ Imprimir</a></button>
+
+<button type="submit" onClick="refreshPage()" class="openpopup3" style= "background:;">Refresh Button</button>
+  
+ </div>
+</div></div>
+
+
+
+
+
+<div class="app2c" style= "margin-top: rem; position: fixed; z-index:200;">
+<div class="closewindow" style= "margin-top:;">
+<span>x</span>
+</div>
+<h1>Tabela Geral</h1>
+
+<!--<p>Clique no botão abaixo para confirmar as alterações nos valores da quantidade a repor.</p>-->
+            
+
+<!--<button type="button" class="store btn btn-success btn-lg fa fa-check-circle " style= "font-size: 2em;
+ line-height: 1.2; padding: 0.5em var(--padding-x); text-align: center; color: white;"></button>-->
+
+<div class= "scrollmenuB" style= "height: 8.5rem;">
+<table style="width:100%">
+<div class="fixA" style="width:58rem; font-size: 1.2rem;">Arraste este cabeçário quando arrastar a tabela.</div>
+<tr>
+    <th>Coluna_1</th>
+    <th>Coluna_2</th>
+    <th>Coluna_3</th>
+    <th>Coluna_4</th>
+    <th>Coluna_5</th>
+<th>Coluna_6</th>
+<th>Coluna_7</th>
+<th>__Coluna_8___</th>
+<th>Coluna_9</th>
+<th>__Coluna_10__</th>   
+  </tr>
+  <tr>
+    <th>Código</th>
+    <th>Produto</th>
+    <th>Valor Unitário</th>
+    <th>Estoque</th>
+    <th>Valor Estoque</th>
+<th>Vendas</th>
+<th>Valor Vendas</th>
+<th>Reposição</th>
+<th>Quantidade a Repor</th>
+<th>Confirmar Venda</th>   
+  </tr>
+</table></div>
+
+<div class= "scrollmenuB" style= "height: 100%;">
+<div class= "scrollmenuB" style= "height: 100%;">
+      <!--<i class="fa fa-percent fa-3x" aria-hidden="true" ></i>-->
+<p>Aqui podemos gerenciar o estoque, confirmar vendas ou mesmo consultar os valores e dados armazenados.</p>
+    <p>É aconselhavel fazer cópias da tabela em PDF ou imprimi-la.</p>
+  <div class="tooltipshop">Artigo não inserido</div>
+  <div class="tooltipshop2">Choose a product</div>
+  
+<div id="target">
+  <div id="content">
+  <div class="app-body">
+<!--<p>Clique no botão abaixo para confirmar as alterações nos valores da quantidade a repor.</p>-->
+            
+
+<!--<button type="button" class="store btn btn-success btn-lg fa fa-check-circle " style= "font-size: 2em;
+ line-height: 1.2; padding: 0.5em var(--padding-x); text-align: center; color: white;"></button>-->
+
+<div id="print-area-5" class="print-area">
+<div class="fixA" style="width:58rem;">Tabela Geral</div>
+<!--Tabela com a lista de dados-->
+        <style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+            <table style="width:100%">
+<tr>
+    <th>Coluna_1</th>
+    <th>Coluna_2</th>
+    <th>Coluna_3</th>
+    <th>Coluna_4</th>
+    <th>Coluna_5</th>
+<th>Coluna_6</th>
+<th>Coluna_7</th>
+<th>Coluna_8</th>
+<th>Coluna_9</th>
+<th>Coluna_10</th>   
+  </tr>
+
+  <tr>
+    <th>Código</th>
+    <th>Produto</th>
+    <th>Valor Unitário</th>
+    <th>Estoque</th>
+    <th>Valor Estoque</th>
+<th>Vendas</th>
+<th>Valor Vendas</th>
+<th>Reposição</th>
+<th>Quantidade a Repor</th>
+<th>Confirmar Venda</th>   
+  </tr>
+
+  <tr>
+<td>B-3</td>
+    <td>Bíblia média, dourada, recouro, índice</td>
+    <td>R$ 25</td>
+    <td>  
+<p id="b1" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="b1();d1();" type="button" class="ClickA" >-</button>
+<button onclick="bz1();dz1();" type="button" class="ClickB">+</button>
+
+<td>
+<p id="d1" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td>
+<p id="a1" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="az1();cz1();" type="button" class="ClickA" >-</button>
+<button onclick="a1();c1();" type="button" class="ClickB">+</button></td>
+
+<td><p id="c1" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td><div style="display: flex;justify-content: space-between">
+        <div class="form-check">
+<div class="checklist-progressbar" style= "margin-left: %; position: ; margin-top:%;">
+        <div>
+          <input type="checkbox" class="box form-check-input flipswitch iN"  onclick="UFilter()" id="progchecker-2" style= "background: ;" > 
+          <label></label></div></div></div></div></td>
+
+    <td>  <div class="well">
+          <div class="text-area1"></div></div>
+<input type="tel" id="F1" class="form-control text-input1" placeholder=""></td>
+ <td><button onclick="myFunction();a1();b1();c1();d1();" class= "confir tray4">Confirmar</button></td>
+  </tr>
+
+
+  <tr>
+<td>B-6</td>
+    <td>Bíblia mini, dourada, índice, preta</td>
+    <td>R$ 22</td>
+    <td>  
+<p id="b2" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="b2();d2();" type="button" class="ClickA" >-</button>
+<button onclick="bz2();dz2();" type="button" class="ClickB">+</button>
+
+<td>
+<p id="d2" class="Pclick" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td>
+<p id="a2" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="az2();cz2();" type="button" class="ClickA" >-</button>
+<button onclick="a2();c2();" type="button" class="ClickB">+</button></td>
+
+<td><p id="c2" class="Pclick" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td><div style="display: flex;justify-content: space-between">
+        <div class="form-check">
+<div class="checklist-progressbar" style= "margin-left: %; position: ; margin-top:%;">
+        <div>
+          <input type="checkbox" class="box form-check-input flipswitch iN"  onclick="UFilter()" id="progchecker-3" style= "background: ;" > 
+          <label></label></div></div></div></div></td>
+
+    <td>  <div class="well">
+          <div class="text-area"></div></div>
+<input type="tel" id="F2" class="form-control text-input" placeholder=""></td>
+ <td><button onclick="myFunction2();a2();b2();c2();d2();" class= "confir tray4">Confirmar</button></td>
+  </tr>
+
+    <tr>
+<td>B-10</td>
+    <td>Bíblia pequena, branca, recouro, índice</td>
+    <td>R$ 25</td>
+   <td>  
+<p id="b3" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="b3();d3();" type="button" class="ClickA" >-</button>
+<button onclick="bz3();dz3();" type="button" class="ClickB">+</button>
+
+<td>
+<p id="d3" class="Pclick" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td>
+<p id="a3" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="az3();cz3();" type="button" class="ClickA" >-</button>
+<button onclick="a3();c3();" type="button" class="ClickB">+</button></td>
+
+<td><p id="c3" class="Pclick" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td><div style="display: flex;justify-content: space-between">
+        <div class="form-check">
+<div class="checklist-progressbar" style= "margin-left: %; position: ; margin-top:%;">
+        <div>
+          <input type="checkbox" class="box form-check-input flipswitch iN"  onclick="UFilter()" id="progchecker-4" style= "background: ;" > 
+          <label></label></div></div></div></div></td>
+
+    <td>  <div class="well">
+          <div class="text-area2"></div></div>
+<input type="tel" id="F3" class="form-control text-input2" placeholder=""></td>
+ <td><button onclick="myFunction3();a3();b3();c3();d3();" class="confir tray4">Confirmar</button></td>
+  </tr>
+
+  <tr>
+<td>B-14</td>
+    <td>Bíblia média, dicion., Concord., recouro, índice</td>
+    <td>R$ 35</td>
+<td>
+    <p id="b4" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="b4();d4();" type="button" class="ClickA" >-</button>
+<button onclick="bz4();dz4();" type="button" class="ClickB">+</button>
+
+<td>
+<p id="d4" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td>
+<p id="a4" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="az4();cz4();" type="button" class="ClickA" >-</button>
+<button onclick="a4();c4();" type="button" class="ClickB">+</button></td>
+
+<td><p id="c4" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td><div style="display: flex;justify-content: space-between">
+        <div class="form-check">
+<div class="checklist-progressbar" style= "margin-left: %; position: ; margin-top:%;">
+        <div>
+          <input type="checkbox" class="box form-check-input flipswitch iN"  onclick="UFilter()" id="progchecker-5" style= "background: ;" > 
+          <label></label></div></div></div></div></td>
+
+    <td>  <div class="well">
+          <div class="text-area4"></div></div>
+<input type="tel" id="F4" class="form-control text-input4" placeholder=""></td>
+ <td><button onclick="myFunction4();a4();b4();c4();d4();" class= "confir tray4">Confirmar</button></td>
+  </tr>
+
+<tr>
+<td>B-17</td>
+    <td>Bíblia e Hinário pequena, capa recouro, índice</td>
+    <td>R$ 25</td>
+<td>
+    <p id="b5" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="b5();d5();" type="button" class="ClickA" >-</button>
+<button onclick="bz5();dz5();" type="button" class="ClickB">+</button>
+
+<td>
+<p id="d5" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td>
+<p id="a5" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="az5();cz5();" type="button" class="ClickA" >-</button>
+<button onclick="myFunction5();a5();c5();" type="button" class="ClickB">+</button></td>
+
+<td><p id="c5" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td><div style="display: flex;justify-content: space-between">
+        <div class="form-check">
+<div class="checklist-progressbar" style= "margin-left: %; position: ; margin-top:%;">
+        <div>
+          <input type="checkbox" class="box form-check-input flipswitch iN"  onclick="UFilter()" id="progchecker-6" style= "background: ;" > 
+          <label></label></div></div></div></div></td>
+
+    <td>  <div class="well">
+          <div class="text-area5"></div></div>
+<input type="tel" id="F5" class="form-control text-input5" placeholder=""></td>
+ <td><button onclick="myFunction5();a5();b5();c5();d5();" class= "confir tray4">Confirmar</button></td>
+  </tr>
+
+<tr>
+<td>B-18</td>
+    <td>Bíblia e Hinário letra grande, Conoord., Dicionário</td>
+    <td>R$ 24</td>
+    <td>  
+<p id="b6" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="b6();d6();" type="button" class="ClickA" >-</button>
+<button onclick="bz6();dz6();" type="button" class="ClickB">+</button>
+
+<td>
+<p id="d6" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td>
+<p id="a6" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="az6();cz6();" type="button" class="ClickA" >-</button>
+<button onclick="a6();c6();" type="button" class="ClickB">+</button></td>
+
+<td><p id="c6" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td><div style="display: flex;justify-content: space-between">
+        <div class="form-check">
+<div class="checklist-progressbar" style= "margin-left: %; position: ; margin-top:%;">
+        <div>
+          <input type="checkbox" class="box form-check-input flipswitch iN"  onclick="UFilter()" id="progchecker-7" style= "background: ;" > 
+          <label></label></div></div></div></div></td>
+
+    <td>  <div class="well">
+          <div class="text-area6"></div></div>
+<input type="tel" id="F6" class="form-control text-input6" placeholder=""></td>
+ <td><button onclick="myFunction6();a6();b6();c6();d6();" class= "confir tray4">Confirmar</button></td>
+  </tr>
+
+  <tr>
+<td>B-19</td>
+    <td>Bíblia e Hinário letra grande </td>
+    <td>R$ 5</td>
+    <td><p id="b7" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="b7();d7();" type="button" class="ClickA" >-</button>
+<button onclick="bz7();dz7();" type="button" class="ClickB">+</button>
+
+<td>
+<p id="d7" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td>
+<p id="a7" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="az7();cz7();" type="button" class="ClickA" >-</button>
+<button onclick="a7();c7();" type="button" class="ClickB">+</button></td>
+
+<td><p id="c7" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td><div style="display: flex;justify-content: space-between">
+        <div class="form-check">
+<div class="checklist-progressbar" style= "margin-left: %; position: ; margin-top:%;">
+        <div>
+          <input type="checkbox" class="box form-check-input flipswitch iN"  onclick="UFilter()" id="progchecker-8" style= "background: ;" > 
+          <label></label></div></div></div></div></td>
+
+    <td>  <div class="well">
+          <div class="text-area7"></div></div>
+<input type="tel" id="F7" class="form-control text-input7" placeholder=""></td>
+ <td><button onclick="myFunction7();a7();b7();c7();d7();" class= "confir tray4">Confirmar</button></td>
+  </tr>
+
+
+    <tr>
+<td>B-20</td>
+    <td>Bíblia e Hinário pequena, capa branca, índice.</td>
+    <td>R$ 25</td>
+    <td><p id="b8" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="b8();d8();" type="button" class="ClickA" >-</button>
+<button onclick="bz8();dz8();" type="button" class="ClickB">+</button>
+
+<td>
+<p id="d8" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td>
+<p id="a8" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="az8();cz8();" type="button" class="ClickA" >-</button>
+<button onclick="a8();c8();" type="button" class="ClickB">+</button></td>
+
+<td><p id="c8" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td><div style="display: flex;justify-content: space-between">
+        <div class="form-check">
+<div class="checklist-progressbar" style= "margin-left: %; position: ; margin-top:%;">
+        <div>
+          <input type="checkbox" class="box form-check-input flipswitch iN"  onclick="UFilter()" id="progchecker-9" style= "background: ;" > 
+          <label></label></div></div></div></div></td>
+
+    <td>  <div class="well">
+          <div class="text-area8"></div></div>
+<input type="tel" id="F8" class="form-control text-input8" placeholder=""></td>
+ <td><button onclick="myFunction8();a8();b8();c8();d8();" class= "confir tray4">Confirmar</button></td>
+  </tr>
+
+
+  <tr>
+<td>B-22</td>
+    <td>Bíblia mini, dourada, índice, preta </td>
+    <td>R$ 22</td>
+    <td><p id="b9" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="b9();d9();" type="button" class="ClickA" >-</button>
+<button onclick="bz9();dz9();" type="button" class="ClickB">+</button>
+
+<td>
+<p id="d9" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td>
+<p id="a9" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="az9();cz9();" type="button" class="ClickA" >-</button>
+<button onclick="a9();c9();" type="button" class="ClickB">+</button></td>
+
+<td><p id="c9" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td><div style="display: flex;justify-content: space-between">
+        <div class="form-check">
+<div class="checklist-progressbar" style= "margin-left: %; position: ; margin-top:%;">
+        <div>
+          <input type="checkbox" class="box form-check-input flipswitch iN"  onclick="UFilter()" id="progchecker-10" style= "background: ;" > 
+          <label></label></div></div></div></div></td>
+
+    <td>  <div class="well">
+          <div class="text-area9"></div></div>
+<input type="tel" id="F9" class="form-control text-input9" placeholder=""></td>
+ <td><button onclick="myFunction9();a9();b9();c9();d9();" class= "confir tray4">Confirmar</button></td>
+  </tr>
+
+
+<tr>
+<td>BZ-2</td>
+    <td>Bíblia pequena, capa recouro, índice, zíper</td>
+    <td>R$25</td>
+    <td><p id="b10" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="b10();d10();" type="button" class="ClickA" >-</button>
+<button onclick="bz10();dz10();" type="button" class="ClickB">+</button>
+
+<td>
+<p id="d10" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td>
+<p id="a10" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="az10();cz10();" type="button" class="ClickA" >-</button>
+<button onclick="a10();c10();" type="button" class="ClickB">+</button></td>
+
+<td><p id="c10" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td><div style="display: flex;justify-content: space-between">
+        <div class="form-check">
+<div class="checklist-progressbar" style= "margin-left: %; position: ; margin-top:%;">
+        <div>
+          <input type="checkbox" class="box form-check-input flipswitch iN"  onclick="UFilter()" id="progchecker-11" style= "background: ;" > 
+          <label></label></div></div></div></div></td>
+
+    <td>  <div class="well">
+          <div class="text-area10"></div></div>
+<input type="tel" id="F10" class="form-control text-input10" placeholder=""></td>
+ <td><button onclick="myFunction10();a10();b10();c10();d10();" class= "confir tray4">Confirmar</button></td>
+  </tr>
+
+
+<tr>
+<td>BZ-5</td>
+    <td>Bíblia mini, capa recouro, índice, zíper</td>
+    <td>R$25</td>
+    <td><p id="b11" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="b11();d11();" type="button" class="ClickA" >-</button>
+<button onclick="bz11();dz11();" type="button" class="ClickB">+</button>
+
+<td>
+<p id="d11" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td>
+<p id="a11" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="az11();cz11();" type="button" class="ClickA" >-</button>
+<button onclick="a11();c11();" type="button" class="ClickB">+</button></td>
+
+<td><p id="c11" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td><div style="display: flex;justify-content: space-between">
+        <div class="form-check">
+<div class="checklist-progressbar" style= "margin-left: %; position: ; margin-top:%;">
+        <div>
+          <input type="checkbox" class="box form-check-input flipswitch iN"  onclick="UFilter()" id="progchecker-12" style= "background: ;" > 
+          <label></label></div></div></div></div></td>
+
+    <td>  <div class="well">
+          <div class="text-area11"></div></div>
+<input type="tel" id="F11" class="form-control text-input11" placeholder=""></td>
+ <td><button onclick="myFunction11();a11();b11();c11();d11();" class= "confir tray4">Confirmar</button></td>
+  </tr>
+
+
+<tr>
+<td>BZ-17</td>
+    <td>Bíblia c/ Hinário pequena, capa recouro, índice, zíper</td>
+    <td>R$35</td>
+    <td><p id="b12" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="b12();d12();" type="button" class="ClickA" >-</button>
+<button onclick="bz12();dz12();" type="button" class="ClickB">+</button>
+
+<td>
+<p id="d12" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td>
+<p id="a12" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="az12();cz12();" type="button" class="ClickA" >-</button>
+<button onclick="a12();c12();" type="button" class="ClickB">+</button></td>
+
+<td><p id="c12" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td><div style="display: flex;justify-content: space-between">
+        <div class="form-check">
+<div class="checklist-progressbar" style= "margin-left: %; position: ; margin-top:%;">
+        <div>
+          <input type="checkbox" class="box form-check-input flipswitch iN"  onclick="UFilter()" id="progchecker-13" style= "background: ;" > 
+          <label></label></div></div></div></div></td>
+
+    <td>  <div class="well">
+          <div class="text-area12"></div></div>
+<input type="tel" id="F12" class="form-control text-input12" placeholder=""></td>
+ <td><button onclick="myFunction12();a12();b12();c12();d12();" class= "confir tray4">Confirmar</button></td>
+  </tr>
+
+
+<tr>
+<td>H-101B</td>
+    <td>Hinário de canto, capa dura branco, pequeno</td>
+    <td>R$7</td>
+    <td><p id="b13" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="b13();d13();" type="button" class="ClickA" >-</button>
+<button onclick="bz13();dz13();" type="button" class="ClickB">+</button>
+
+<td>
+<p id="d13" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td>
+<p id="a13" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="az13();cz13();" type="button" class="ClickA" >-</button>
+<button onclick="a13();c13();" type="button" class="ClickB">+</button></td>
+
+<td><p id="c13" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td><div style="display: flex;justify-content: space-between">
+        <div class="form-check">
+<div class="checklist-progressbar" style= "margin-left: %; position: ; margin-top:%;">
+        <div>
+          <input type="checkbox" class="box form-check-input flipswitch iN"  onclick="UFilter()" id="progchecker-14" style= "background: ;" > 
+          <label></label></div></div></div></div></td>
+
+    <td>  <div class="well">
+          <div class="text-area13"></div></div>
+<input type="tel" id="F13" class="form-control text-input13" placeholder=""></td>
+ <td><button onclick="myFunction13();a13();b13();c13();d13();" class= "confir tray4">Confirmar</button></td>
+  </tr>
+
+  <tr>
+<td>H-101P</td>
+    <td>Hinário de canto, capa dura preto, pequeno</td>
+    <td>R$7</td>
+    <td><p id="b14" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="b14();d14();" type="button" class="ClickA" >-</button>
+<button onclick="bz14();dz14();" type="button" class="ClickB">+</button>
+
+<td>
+<p id="d14" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td>
+<p id="a14" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="az14();cz14();" type="button" class="ClickA" >-</button>
+<button onclick="a14();c14();" type="button" class="ClickB">+</button></td>
+
+<td><p id="c14" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td><div style="display: flex;justify-content: space-between">
+        <div class="form-check">
+<div class="checklist-progressbar" style= "margin-left: %; position: ; margin-top:%;">
+        <div>
+          <input type="checkbox" class="box form-check-input flipswitch iN"  onclick="UFilter()" id="progchecker-15" style= "background: ;" > 
+          <label></label></div></div></div></div></td>
+
+    <td>  <div class="well">
+          <div class="text-area14"></div></div>
+<input type="tel" id="F14" class="form-control text-input14" placeholder=""></td>
+ <td><button onclick="myFunction();a14();b14();c14();d14();" class= "confir tray4">Confirmar</button></td>
+  </tr>
+
+    <tr>
+<td>H-103P</td>
+    <td>Hinário de canto, capa dura preto, grande</td>
+    <td>R$8</td>
+    <td><p id="b15" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="b15();d15();" type="button" class="ClickA" >-</button>
+<button onclick="bz15();dz15();" type="button" class="ClickB">+</button>
+
+<td>
+<p id="d15" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td>
+<p id="a15" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="az15();cz15();" type="button" class="ClickA" >-</button>
+<button onclick="a15();c15();" type="button" class="ClickB">+</button></td>
+
+<td><p id="c15" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td><div style="display: flex;justify-content: space-between">
+        <div class="form-check">
+<div class="checklist-progressbar" style= "margin-left: %; position: ; margin-top:%;">
+        <div>
+          <input type="checkbox" class="box form-check-input flipswitch iN"  onclick="UFilter()" id="progchecker-16" style= "background: ;" > 
+          <label></label></div></div></div></div></td>
+
+    <td>  <div class="well">
+          <div class="text-area15"></div></div>
+<input type="tel" id="F15" class="form-control text-input15" placeholder=""></td>
+ <td><button onclick="myFunction15();a15();b15();c15();d15();" class= "confir tray4">Confirmar</button></td>
+  </tr>
+
+  <tr>
+<td>H-105P</td>
+    <td>Hinário de canto, capa recouro preto, grande</td>
+    <td>R$14</td>
+    <td><p id="b16" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="b16();d16();" type="button" class="ClickA" >-</button>
+<button onclick="bz16();dz16();" type="button" class="ClickB">+</button>
+
+<td><p id="d16" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td>
+<p id="a16" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="az16();cz16();" type="button" class="ClickA" >-</button>
+<button onclick="a16();c16();" type="button" class="ClickB">+</button></td>
+
+<td><p id="c16" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td><div style="display: flex;justify-content: space-between">
+        <div class="form-check">
+<div class="checklist-progressbar" style= "margin-left: %; position: ; margin-top:%;">
+        <div>
+          <input type="checkbox" class="box form-check-input flipswitch iN"  onclick="UFilter()" id="progchecker-17" style= "background: ;" > 
+          <label></label></div></div></div></div></td>
+
+    <td>  <div class="well">
+          <div class="text-area16"></div></div>
+<input type="tel" id="F16" class="form-control text-input16" placeholder=""></td>
+ <td><button onclick="myFunction16();a16();b16();c16();d16();" class= "confir tray4">Confirmar</button></td>
+  </tr>
+
+
+  <tr>
+<td>HM-102</td>
+    <td>Hinário de música, médio-DÓ</td>
+    <td>R$20</td>
+    <td><p id="b17" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="b17();d17();" type="button" class="ClickA" >-</button>
+<button onclick="bz17();dz17();" type="button" class="ClickB">+</button>
+
+<td>
+<p id="d17" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td>
+<p id="a17" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="az17();cz17();" type="button" class="ClickA" >-</button>
+<button onclick="a17();c17();" type="button" class="ClickB">+</button></td>
+
+<td><p id="c17" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td><div style="display: flex;justify-content: space-between">
+        <div class="form-check">
+<div class="checklist-progressbar" style= "margin-left: %; position: ; margin-top:%;">
+        <div>
+          <input type="checkbox" class="box form-check-input flipswitch iN"  onclick="UFilter()" id="progchecker-18" style= "background: ;" > 
+          <label></label></div></div></div></div></td>
+
+    <td>  <div class="well">
+          <div class="text-area17"></div></div>
+<input type="tel" id="F17" class="form-control text-input17" placeholder=""></td>
+ <td><button onclick="myFunction17();a17();b17();c17();d17();" class= "confir tray4">Confirmar</button></td>
+  </tr>
+
+
+  <tr>
+<td>HM-110</td>
+    <td>Hinário de música, médio-Si Bemol</td>
+    <td>R$20</td>
+    <td><p id="b18" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="b18();d18();" type="button" class="ClickA" >-</button>
+<button onclick="bz18();dz18();" type="button" class="ClickB">+</button>
+
+<td>
+<p id="d18" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td>
+<p id="a18" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="az18();cz18();" type="button" class="ClickA" >-</button>
+<button onclick="a18();c18();" type="button" class="ClickB">+</button></td>
+
+<td><p id="c18" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td><div style="display: flex;justify-content: space-between">
+        <div class="form-check">
+<div class="checklist-progressbar" style= "margin-left: %; position: ; margin-top:%;">
+        <div>
+          <input type="checkbox" class="box form-check-input flipswitch iN"  onclick="UFilter()" id="progchecker-19" style= "background: ;" > 
+          <label></label></div></div></div></div></td>
+
+    <td>  <div class="well">
+          <div class="text-area18"></div></div>
+<input type="tel" id="F18" class="form-control text-input18" placeholder=""></td>
+ <td><button onclick="myFunction18();a18();b18();c18();d18();" class= "confir tray4">Confirmar</button></td>
+  </tr>
+
+  <tr>
+<td>H-113</td>
+    <td>Hinário de música, médio-CORDAS</td>
+    <td>R$24</td>
+    <td><p id="b19" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="b19();d19();" type="button" class="ClickA" >-</button>
+<button onclick="bz19();dz19();" type="button" class="ClickB">+</button>
+
+<td>
+<p id="d19" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td>
+<p id="a19" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="az19();cz19();" type="button" class="ClickA" >-</button>
+<button onclick="a19();c19();" type="button" class="ClickB">+</button></td>
+
+<td><p id="c19" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td><div style="display: flex;justify-content: space-between">
+        <div class="form-check">
+<div class="checklist-progressbar" style= "margin-left: %; position: ; margin-top:%;">
+        <div>
+          <input type="checkbox" class="box form-check-input flipswitch iN"  onclick="UFilter()" id="progchecker-20" style= "background: ;" > 
+          <label></label></div></div></div></div></td>
+
+    <td>  <div class="well">
+          <div class="text-area19"></div></div>
+<input type="tel" id="F19" class="form-control text-input19" placeholder=""></td>
+ <td><button onclick="myFunction19();a19();b19();c19();d19();" class= "confir tray4">Confirmar</button></td>
+  </tr>
+
+
+  <tr>
+<td>HM-211</td>
+    <td>Hinário de música, médio-Mi Bemol</td>
+    <td>R$14</td>
+    <td><p id="b20" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="b20();d20();" type="button" class="ClickA" >-</button>
+<button onclick="bz20();dz20();" type="button" class="ClickB">+</button>
+
+<td>
+<p id="d20" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td>
+<p id="a20" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="az20();cz20();" type="button" class="ClickA" >-</button>
+<button onclick="a20();c20();" type="button" class="ClickB">+</button></td>
+
+<td><p id="c20" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td><div style="display: flex;justify-content: space-between">
+        <div class="form-check">
+<div class="checklist-progressbar" style= "margin-left: %; position: ; margin-top:%;">
+        <div>
+          <input type="checkbox" class="box form-check-input flipswitch iN"  onclick="UFilter()" id="progchecker-21" style= "background: ;" > 
+          <label></label></div></div></div></div></td>
+
+    <td>  <div class="well">
+          <div class="text-area20"></div></div>
+<input type="tel" id="F20" class="form-control text-input20" placeholder=""></td>
+ <td><button onclick="myFunction20();a20();b20();c20();d20();" class= "confir tray4">Confirmar</button></td>
+  </tr>
+
+  <tr>
+<td>H-502P</td>
+    <td>Hinário de música, mini-DÓ</td>
+    <td>R$14</td>
+    <td><p id="b21" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="b21();d21();" type="button" class="ClickA" >-</button>
+<button onclick="bz21();dz21();" type="button" class="ClickB">+</button>
+
+<td>
+<p id="d21" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td>
+<p id="a21" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="az21();cz21();" type="button" class="ClickA" >-</button>
+<button onclick="a21();c21();" type="button" class="ClickB">+</button></td>
+
+<td><p id="c21" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td><div style="display: flex;justify-content: space-between">
+        <div class="form-check">
+<div class="checklist-progressbar" style= "margin-left: %; position: ; margin-top:%;">
+        <div>
+          <input type="checkbox" class="box form-check-input flipswitch iN"  onclick="UFilter()" id="progchecker-22" style= "background: ;" > 
+          <label></label></div></div></div></div></td>
+
+    <td>  <div class="well">
+          <div class="text-area21"></div></div>
+<input type="tel" id="F21" class="form-control text-input21" placeholder=""></td>
+ <td><button onclick="myFunction21();a21();b21();c21();d21();" class= "confir tray4">Confirmar</button></td>
+  </tr>
+
+
+<tr>
+<td>MOO</td>
+    <td>Manual Orientação Orquestra</td>
+    <td>R$5</td>
+    <td><p id="b22" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="b22();d22();" type="button" class="ClickA" >-</button>
+<button onclick="bz22();dz22();" type="button" class="ClickB">+</button>
+
+<td>
+<p id="d22" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td>
+<p id="a22" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="az22();cz22();" type="button" class="ClickA" >-</button>
+<button onclick="a22();c22();" type="button" class="ClickB">+</button></td>
+
+<td><p id="c22" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td><div style="display: flex;justify-content: space-between">
+        <div class="form-check">
+<div class="checklist-progressbar" style= "margin-left: %; position: ; margin-top:%;">
+        <div>
+          <input type="checkbox" class="box form-check-input flipswitch iN"  onclick="UFilter()" id="progchecker-23" style= "background: ;" > 
+          <label></label></div></div></div></div></td>
+
+    <td>  <div class="well">
+          <div class="text-area22"></div></div>
+<input type="tel" id="F22" class="form-control text-input22" placeholder=""></td>
+ <td><button onclick="myFunction();a22();b22();c22();d22();" class= "confir tray4">Confirmar</button></td>
+  </tr>
+
+  <tr>
+<td>MTS-1</td>
+    <td>Método de teoria e solfejo</td>
+    <td>R$5</td>
+    <td><p id="b23" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="b23();d23();" type="button" class="ClickA" >-</button>
+<button onclick="bz23();dz23();" type="button" class="ClickB">+</button>
+
+<td>
+<p id="d23" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td>
+<p id="a23" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="az23();cz23();" type="button" class="ClickA" >-</button>
+<button onclick="a23();c23();" type="button" class="ClickB">+</button></td>
+
+<td><p id="c23" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td><div style="display: flex;justify-content: space-between">
+        <div class="form-check">
+<div class="checklist-progressbar" style= "margin-left: %; position: ; margin-top:%;">
+        <div>
+          <input type="checkbox" class="box form-check-input flipswitch iN"  onclick="UFilter()" id="progchecker-24" style= "background: ;" > 
+          <label></label></div></div></div></div></td>
+
+    <td>  <div class="well">
+          <div class="text-area23"></div></div>
+<input type="tel" id="F23" class="form-control text-input23" placeholder=""></td>
+ <td><button onclick="myFunction();a23();b23();c23();d23();" class= "confir tray4">Confirmar</button></td>
+  </tr>
+
+<tr>
+<td>MOR-V1</td>
+    <td>Método para Organista-Volume 1</td>
+    <td>R$8</td>
+    <td><p id="b24" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="b24();d24();" type="button" class="ClickA" >-</button>
+<button onclick="bz24();dz24();" type="button" class="ClickB">+</button>
+
+<td>
+<p id="d24" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td><p id="a24" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="az24();cz24();" type="button" class="ClickA" >-</button>
+<button onclick="a24();c24();" type="button" class="ClickB">+</button></td>
+
+<td><p id="c24" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td><div style="display: flex;justify-content: space-between">
+        <div class="form-check">
+<div class="checklist-progressbar" style= "margin-left: %; position: ; margin-top:%;">
+        <div>
+          <input type="checkbox" class="box form-check-input flipswitch iN"  onclick="UFilter()" id="progchecker-25" style= "background: ;" > 
+          <label></label></div></div></div></div></td>
+
+    <td>  <div class="well">
+          <div class="text-area24"></div></div>
+<input type="tel" id="F24" class="form-control text-input24" placeholder=""></td>
+ <td><button onclick="myFunction();a24();b24();c24();d24();" class= "confir tray4">Confirmar</button></td>
+  </tr>
+
+
+<tr>
+<td>MOR-V2</td>
+    <td>Método para Organista-Volume 2</td>
+    <td>R$8</td>
+    <td><p id="b25" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="b25();d25();" type="button" class="ClickA" >-</button>
+<button onclick="bz25();dz25();" type="button" class="ClickB">+</button>
+
+<td>
+<p id="d25" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td>
+<p id="a25" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="az25();cz25();" type="button" class="ClickA" >-</button>
+<button onclick="a25();c25();" type="button" class="ClickB">+</button></td>
+
+<td><p id="c25" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td><div style="display: flex;justify-content: space-between">
+        <div class="form-check">
+<div class="checklist-progressbar" style= "margin-left: %; position: ; margin-top:%;">
+        <div>
+          <input type="checkbox" class="box form-check-input flipswitch iN"  onclick="UFilter()" id="progchecker-26" style= "background: ;" > 
+          <label></label></div></div></div></div></td>
+
+    <td>  <div class="well">
+          <div class="text-area25"></div></div>
+<input type="tel" id="F25" class="form-control text-input25" placeholder=""></td>
+ <td><button onclick="myFunction();a25();b25();c25();d25();" class= "confir tray4">Confirmar</button></td>
+  </tr>
+
+
+<tr>
+<td>MOR-V3</td>
+    <td>Método para Organista-Volume 3</td>
+    <td>R$8</td>
+    <td><p id="b26" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="b26();d26();" type="button" class="ClickA" >-</button>
+<button onclick="bz26();dz26();" type="button" class="ClickB">+</button>
+
+<td>
+<p id="d26" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td>
+<p id="a26" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="az26();cz26();" type="button" class="ClickA" >-</button>
+<button onclick="a26();c26();" type="button" class="ClickB">+</button></td>
+
+<td><p id="c26" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td><div style="display: flex;justify-content: space-between">
+        <div class="form-check">
+<div class="checklist-progressbar" style= "margin-left: %; position: ; margin-top:%;">
+        <div>
+          <input type="checkbox" class="box form-check-input flipswitch iN"  onclick="UFilter()" id="progchecker-27" style= "background: ;" > 
+          <label></label></div></div></div></div></td>
+
+    <td>  <div class="well">
+          <div class="text-area26"></div></div>
+<input type="tel" id="F26" class="form-control text-input26" placeholder=""></td>
+ <td><button onclick="myFunction();a26();b26();c26();d26();" class= "confir tray4">Confirmar</button></td>
+  </tr>
+
+<tr>
+<td>MOR-V4</td>
+    <td>Método para Organista-Volume 4</td>
+    <td>R$8</td>
+    <td><p id="b27" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="b27();d27();" type="button" class="ClickA" >-</button>
+<button onclick="bz27();dz27();" type="button" class="ClickB">+</button>
+
+<td>
+<p id="d27" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td>
+<p id="a27" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="az27();cz27();" type="button" class="ClickA" >-</button>
+<button onclick="a27();c27();" type="button" class="ClickB">+</button></td>
+
+<td><p id="c27" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td><div style="display: flex;justify-content: space-between">
+        <div class="form-check">
+<div class="checklist-progressbar" style= "margin-left: %; position: ; margin-top:%;">
+        <div>
+          <input type="checkbox" class="box form-check-input flipswitch iN"  onclick="UFilter()" id="progchecker-28" style= "background: ;" > 
+          <label></label></div></div></div></div></td>
+
+    <td>  <div class="well">
+          <div class="text-area27"></div></div>
+<input type="tel" id="F27" class="form-control text-input27" placeholder=""></td>
+ <td><button onclick="myFunction();a27();b27();c27();d27();" class= "confir tray4">Confirmar</button></td>
+  </tr>
+
+
+<tr>
+<td>VA-A</td>
+    <td>Véu de algodão, para adulto</td>
+    <td>R$12</td>
+    <td><p id="b28" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="b28();d28();" type="button" class="ClickA" >-</button>
+<button onclick="bz28();dz28();" type="button" class="ClickB">+</button>
+
+<td>
+<p id="d28" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td>
+<p id="a28" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="az28();cz28();" type="button" class="ClickA" >-</button>
+<button onclick="a28();c28();" type="button" class="ClickB">+</button></td>
+
+<td><p id="c28" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td><div style="display: flex;justify-content: space-between">
+        <div class="form-check">
+<div class="checklist-progressbar" style= "margin-left: %; position: ; margin-top:%;">
+        <div>
+          <input type="checkbox" class="box form-check-input flipswitch iN"  onclick="UFilter()" id="progchecker-29" style= "background: ;" > 
+          <label></label></div></div></div></div></td>
+
+    <td>  <div class="well">
+          <div class="text-area28"></div></div>
+<input type="tel" id="F28" class="form-control text-input28" placeholder=""></td>
+ <td><button onclick="myFunction();a28();b28();c28();d28();" class= "confir tray4">Confirmar</button></td>
+  </tr>
+
+
+  <tr>
+<td>VA-C</td>
+    <td>Véu de algodão, para criança</td>
+    <td>R$10</td>
+    <td><p id="b29" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="b29();d29();" type="button" class="ClickA" >-</button>
+<button onclick="bz29();dz29();" type="button" class="ClickB">+</button>
+
+<td>
+<p id="d29" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td>
+<p id="a29" class="Pclick" style= "width: 5rem; ">
+</p>
+<button onclick="az29();cz29();" type="button" class="ClickA" >-</button>
+<button onclick="a29();c29();" type="button" class="ClickB">+</button></td>
+
+<td><p id="c29" class="Pclick2" style= "width: 5rem; margin-top:-2.6rem;">
+</p></td>
+
+<td><div style="display: flex;justify-content: space-between">
+        <div class="form-check">
+<div class="checklist-progressbar" style= "margin-left: %; position: ; margin-top:%;">
+        <div>
+          <input type="checkbox" class="box form-check-input flipswitch iN"  onclick="UFilter()" id="progchecker-30" style= "background: ;" > 
+          <label></label></div></div></div></div></td>
+
+    <td>  <div class="well">
+          <div class="text-area29"></div></div>
+<input type="tel" id="F29" class="form-control text-input29" placeholder=""></td>
+ <td><button onclick="myFunction();a29();b29();c29();d29();" class= "confir tray4">Confirmar</button></td>
+  </tr>
+</table>
+
+<table style="width:100%">
+  <tr>
+<div class="fixA" style="width:40rem;">Comprar</div>
+    <th>Código</th>
+    <th>Produto</th>
+    <th>Valor Unitário</th>
+    <th>Estoque</th>    
+<th>Reposição</th>
+<th>Quantidade a Repor</th>
+ <th>Confirmar Quantidade</th>
+  </tr>
+
+<tr>
+<td>C-18</td>
+    <td>Pedidos de Oração- bloco-50 fls</td>
+    <td>R$0,40</td>
+    <td><p id="demo1D" style= "margin-left: %; margin-top: rem; background-color: white; padding:rem; width: 5rem; border: solid 4px; text-align: center;"></p>
+
+ <button onclick="clickCounter1Db()" type="button" style= "margin-top: rem; margin-left: %; background: #000; width: 40%; height:2.5rem; border-radius: 10px 10px 10px 10px; float: left;" >-</button>
+
+<button onclick="clickCounter1Da()" type="button" style= "margin-top: rem; background: #000; width: 40%; height: 2.5rem; margin-left:%; border-radius: 10px 10px 10px 10px; float: right;">+</button></td>
+
+<td><div style="display: flex;justify-content: space-between">
+        <div class="form-check">
+<div class="checklist-progressbar" style= "margin-left: %; position: ; margin-top:%;">
+        <div>
+          <input type="checkbox" class="box form-check-input flipswitch iN" onclick="UFilter()" id="progchecker-1D">
+<label></label>
+</div></div></div></div></td>
+
+
+<td><div class="well">
+          <div class="text-area1D"></div></div>
+<input type="tel" id="FD1" class="form-control text-input1D" placeholder=""></td> 
+
+<td><button type="button" class="store1D btn btn-success btn-lg fa fa-check-circle fa fa-check-circle" style= "font-size: 2em;
+ line-height: 1.2; padding: 0.5em var(--padding-x); text-align: center; color: white;"></button></td>
+  </tr>
+
+  <tr>
+<td>C-19</td>
+    <td>Recitativos- bloco 50fls</td>
+    <td>R$0,40</td>
+    <td><p id="demo2D" style= "margin-left: %; margin-top: rem; background-color: white; padding:rem; width: 5rem; border: solid 4px; text-align: center;"></p>
+
+ <button onclick="clickCounter2Db()" type="button" style= "margin-top: rem; margin-left: %; background: #000; width: 40%; height:2.5rem; border-radius: 10px 10px 10px 10px; float: left;" >-</button>
+
+<button onclick="clickCounter2Da()" type="button" style= "margin-top: rem; background: #000; width: 40%; height: 2.5rem; margin-left:%; border-radius: 10px 10px 10px 10px; float: right;">+</button></td>
+
+<td><div style="display: flex;justify-content: space-between">
+        <div class="form-check">
+<div class="checklist-progressbar" style= "margin-left: %; position: ; margin-top:%;">
+        <div>
+          <input type="checkbox" class="box form-check-input flipswitch iN" onclick="UFilter()" id="progchecker-2D">
+          <label></label></div></div></div></div></td>
+
+    <td><div class="well">
+          <div class="text-area2D"></div></div>
+<input type="tel" id="FD2" class="form-control text-input2D" placeholder=""></td>
+
+<td><button type="button" class="store2D btn btn-success btn-lg fa fa-check-circle" style= "font-size: 2em;
+ line-height: 1.2; padding: 0.5em var(--padding-x); text-align: center; color: white;"></button></td>
+  </tr>
+  
+</table>
+        
+    
+<style>
+table, th, td {
+  border:1px solid black; text-align:center;
+}
+</style>
+      </div>  
+      
+   </div></div></div></div>
+      <div class="container" style="height:100%;">
+ <h2>Salvar</h2>
+
+    <div class="tasks">
+<div style="display: flex;justify-content: space-between">
+        <div class="form-check">
+
+<div class="checklist-progressbar" style= "margin-left: %; position: ; margin-top:%;">
+  <div class="progressbar" style= "left:;">
+		<div class="progressbar-inner"></div>
+		<div class="progressbar-value"></div>
+	</div>               
+
+        
+    <label class="form-check-label" for="done">
+            Porcentagem de Produtos Repostos.
+          </label>
+        </div></div></div>
+        <div class="form-check">
+          
+        </div>
+      
+
+      <div style="display: flex;justify-content: space-between">
+        <div class="form-check">
+          
+          <label class="form-check-label" for="done">
+            
+          </label>
+        </div>
+        <div class="form-check">
+          
+        </div>
+      </div>
+
+      
+
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Clique no botão laranja para ver o estoque inícial; no 2° botão podemos tanto salvar PDF como imprimir. </label>
+      
+  </div>
+<script src="test.js"></script>    
+
+   <!-- <div class="openpopup">
+Ir para o checkout
+</div>-->
+
+            
+            <button type="button" class="recall btn btn-warning btn-lg fa fa-eye" style="font-size: 2em;
+ line-height: 1.2; padding: 0.5em var(--padding-x);"></button>
+
+    <button class="openpopup3" style="text-align:center;"><a class="no-print" href="javascript:printDiv('print-area-5');">Salvar PDF/ Imprimir</a></button>
+
+<button type="submit" onClick="refreshPage()" class="openpopup3" style= "background:;">Refresh Button</button>
+  
+ </div>
+</div></div>
+
+
+<div class="app2d" style= "margin-top: rem; position: ; z-index:200; height:;">
+<div class="closewindow" style= "margin-top:;">
+<span>x</span>
+</div>
+
+<h2>Lista de tarefas</h2>
+<div class= "scrollmenuB" style="height: 100%;">
+<div class= "scrollmenuB" style= "height: 100%;">
+      <i class="fa fa-list fa-3x" aria-hidden="true" ></i>
+    <p>Caso nescessário fazer cópias da lista em PDF ou imprimi-la.</p>
+  <div class="tooltipshop">Artigo não inserido</div>
+  <div class="tooltipshop2">Choose a product</div>
+
+<div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Escreva as informações desejadas no campo abaixo e salve-as na lista.</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" name="textarea" rows="3" placeholder="Escrever..."></textarea>
+    
+    <button type="button" id="submit"  class="recall btn btn-warning btn-lg " style="font-size: 1.6em;
+ line-height: 1.2; padding: 0.5em var(--padding-x);background:#000; color:white;">OK</button>
+  </div>
+  
+<div id="target">
+  <div id="content">
+  <div class="app-body">
+
+  <div class="list"></div>
+<div id= "" class=""style= "margin-left:%; position: relative; margin-top:%; width:rem; background-color:#0000;">
+<div id="print-area-6" class="print-area">
+      <ul id="tasklist" >
+      </ul></div></div>
+   </div></div></div></div>
+      <div class="container">
+
+    <h2>Selecionar Tarefas</h2>
+    <div class="tasks">
+      <div style="display: flex;justify-content: space-between">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" onclick="filterA()" value="" id="done">
+          <label class="form-check-label" for="done">
+           Tarefas não realizadas
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" onclick="filter()" value="" id="undone">
+          <label class="form-check-label" for="undone">
+          Tarefas realizadas
+          </label>
+        </div>
+      </div>
+
+      
+
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label"></label>
+      
+  </div>
+<script src="test.js"></script>
+
+   
+      
+
+  <button class="openpopup3" style="text-align:center;"><a class="no-print" href="javascript:printDiv('print-area-6');">Salvar PDF/ Imprimir</a></button>
+ 
+
+  <button type="submit" onClick="refreshPage()" class="openpopup3" style= "background:;">Refresh Button</button>
+
+<button type="submit" onClick="refreshPage()" class="openpopup3" style= "background:;">Refresh Button</button>
+
+ </div>
+</div></div>
+
+
+<div class="app3" style= "margin-top: ; position: ; z-index:200; height:36%;">
+<div class="closewindow" style= "margin-top:; z-index:200;">
+<span>x</span>
+</div>
+
+<h3>Selecionar</h3>
+
+
+     
+  <div class="tooltipshop">Artigo não inserido</div>
+  <div class="tooltipshop2">Choose a product</div>
+
+  
+<div id="target" style= "height:43%;">
+  <div id="content" style= "height:%;">
+  <div class="app-body" style= "height:%;">
+
+<input type="search" id="myInput1" onkeyup="myFunctionS()" placeholder="Procurar Produtos..." title="Type in a name" style="border-radius:4rem 4rem 4rem 4rem; border:none; box-shadow: 0 0 10px rgba(0,0,0,0.5); width:95%; height: 2.5rem;">
+
+<div class= "scrollmenuB" style= "height: %;">
+<div class= "scrollmenuB" style= "height: 15%;">
+<div class= "scrollmenuB" style= "height: 100%;">
+
+ 
+
+
+<ol id="myUL1">
+<li style= "border: 0.1rem solid #000; list-style: none;  font-size: 0.5rem; line-height: 1rem; color: #616161; max-width: px; text-align:left;background:white;"> <a href="#"  style= "font-size:0.8rem;">Escreva o nome ou código do produto desejado na barra de procura. Ou selecione os produtos desejados na lista.</a></li>
+
+<li><a href="#AB1">Bíblia sem Zíper</a></li>
+  <li><a href="#A1">Bíblia média, dourada, recouro, índice (B-3)</a></li>
+<li><a href="#A2">Bíblia mini, dourada, índice, preta (B-6)</a></li>
+
+<li><a href="#AB2">Bíblia com Zíper</a></li>
+
+  <li><a href="#A19">Hinário de música, médio- CORDAS (HM-113)</a></li>
+
+<li><a href="#AB3">Lívros/Livretos</a></li>
+  <li><a href="#A22">Manual Orientação Orquestra (MOO)</a></li>
+  <li><a href="#A28">Véu de algodão, para adulto (VR-A)</a></li>
+
+  <li><a href="#A1">B-3</a></li>
+  <li><a href="#A19">HM-113</a></li>
+  <li><a href="#A22">MOO</a></li>
+  <li><a href="#A28">VR-A</a></li>
+</ol>
+
+      
+   </div></div></div></div></div></div>
+      <div class="container">
+    <h2 style= "color:#1B404D;">"Deus Abençoe!"</h2>
+    <div class="tasks">
+      <div style="display: flex;justify-content: space-between">
+        
+      
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label"></label>
+      
+  </div>
+<script src="test.js"></script>
+
+   
+ </div>
+</div></div></div>
+
+
+
+
+<div class="app4" style= "margin-top: rem; position: fixed; height:100%; z-index:200;">
+
+<div class="closewindow" style= "margin-top:; z-index:200;">
+<span>x</span>
+</div>
+<div class= "scrollmenuB" style= "height: 100%;">
+<h1>"Importante"</h1>
+<h2>Enviar Dados</h2>
+<div class= "scrollmenuB" style= "height: 60%;">
+      <i class="fa fa-warning fa-3x" aria-hidden="true" ></i>
+    <p>Com o intuito de manter o histórico de vendas organizados, siga os passos a seguir:</p>
+    <p>Preencha os campos abaixo conforme nescessário e/ou desejado.</p>
+<p>Em seguida conclua a operação clicando no botão "OK".</p>
+<p>Deste modo os dados serão armazenados na <strong>Tabela de Vendas</strong>.</p>
+</div>
+<h2>Preecher</h2>
+
+  <div class="tooltipshop">Artigo não inserido</div>
+  <div class="tooltipshop2">Choose a product</div>
+  
+
+      <div class="container">
+<div class="">
+    <span><br></span>
+    <div type="" id="upload" id="upload-btn" />
+</div>
+
+<div id="myDIV" style= "margin-top:%; position: ;">
+<div class="container">
+            <form id="frmPerson" class="form-horizontal">
+                <div class="form-group">
+                    <label for="txtID" class="col-lg-2 control-label">Produto</label>
+                    <div class="col-sm-4">
+                        
+<input type="text" list="Produc" id="myText" class="Product form-control child" placeholder="Produto" />
+      </div>
+                </div>                    
+                <div class="form-group">
+                    <label for="txtName" class="col-lg-2 control-label">Pagamento</label>
+                    <div class="col-sm-4">
+                        <select type="text" id="myText2"  placeholder="" class="Pay form-control mySelect"  name="text" rows="3">
+<option  selected>__(Pago)__</option>
+  <option >__Não Pago__</option>
+  <option >Acertado</option>
+ <option>Encomenda-Pago</option>
+  <option>Encomenda-Não Pago</option>
+  
+  
+</select>
+                    </div>
+                </div>
+<div class="form-group">
+                    <label for="txtEmail" class="col-lg-2 control-label">Nome</label>
+                    <div class="col-sm-4">
+                        <input type="text" id="myText3" class="Name form-control" placeholder="Nome">
+                    </div>
+                </div>
+              <div class="form-group">
+                    <label for="txtName" class="col-lg-2 control-label">Informações</label>
+                    <div class="col-sm-4">
+                        <input type="text" id="myText4" class="Infor form-control" placeholder="Informações">
+                    </div>
+                </div>
+              <div class="form-group">
+                    <label for="txtName" class="col-lg-2 control-label">Contato</label>
+                    <div class="col-sm-4">
+                        <input type="text" id="myText5" class="Email form-control" placeholder="Contato">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="txtPhone" class="col-lg-2 control-label">Data</label>
+                    <div class="col-sm-4">
+                        <input type="date" id="myText6" class="Date form-control" placeholder="">
+                    </div>
+                </div>
+        
+        
+                <div class="form-group">
+<div><label><p>O 1° botão envia as informações para a tabela 1, onde podemos salvar como PDF e/ou imprimir.</p><p>O 2° envia para Email.</p></label></div>
+                    <div class="col-lg-offset-2 col-sm-4">
+
+                        <input type="submit"   value="OK" id="btnSave" class="btn btn-success tray2" style="font-size: 1.3em;
+ line-height: 1.2; padding: 0.5em var(--padding-x);"></div><div>
+<button onclick="sendMail(); return false" class= "btn fa fa-envelope" style= "background:red; margin-left:%; color: white; font-size: 2em;
+ line-height: 1.2; padding: 0.5em var(--padding-x);"></button>
+
+                    
+               </div>
+
+                </div>
+
+            </form>
+        </div>      
+ </div></div>
+
+  <h1>"Observação"</h1>  
+<label for="exampleFormControlTextarea1" class="form-label">Quando desejado e/ou nescessário para acessar os dados armazenados neste processo, basta abrir a Tabela de Vendas, através dos ícones na página. Podendo assim revisar pagamentos, data das vendas, etc.</label>
+<h1>"Deus abençoe!"</h1>
+    <div class="tasks">
+      <div style="display: flex;justify-content: space-between">
+      
+      
+</div>
+    
+    <div class="mb-3">
+      
+      
+  
+<script src="test.js"></script>
+
+  
+
+  <button type="submit" onClick="refreshPage()" class="openpopup3" style= "background:;">Refresh Button</button>
+
+ </div>
+</div></div></div></div>
+
+
+<div class="app5" style= "margin-top: rem; position: fixed; height:100%; z-index:200;">
+
+<div class="closewindow" style= "margin-top:; z-index:200;">
+<span>x</span>
+</div>
+<div class= "scrollmenuB" style= "height: 100%;">
+<h1>Calculadora</h1>
+
+<div class= "scrollmenuB" style= "height: 100%;">
+    
+    
+  <div class="tooltipshop">Artigo não inserido</div>
+  <div class="tooltipshop2">Choose a product</div>
+  
+<div class="container">
+<div class="scrollmenuB" style= "height: 100%;">
+    
+
+    <div class="tasks">
+      <div style="display: flex;justify-content: space-between">
+      
+
+      
+<div class="scrollmenuB" style= "position:; height:;">
+<main style= "margin-left:%; position:; width:100%;">
+  <div class="container containerCal" style="position:; background: ;">
+   
+    <div class="text-center" style="margin-top:rem; margin-left:%; width:100%; position: absolute;">
+      <input class="text-right textBox" type="textBox" style="border-radius:0.8rem; height:3rem; margin-left:%;" placeholder="0" readonly>
+      </input>
+    </div>
+    <div id="buttons" style= "margin-top:4rem; margin-left:rem; background-color:; width:24rem; ">
+      <ol class="rowLI" style="list-style-type:none;">
+<div class="columnLI1">
+        <li style= "width:5rem; display: flex; text-align:;">
+          <button class="btn btn-default text-center" value="C">C</button> </li></div><div class="columnLI2">
+        <li style= "width:5rem; display: flex; text-align:;">
+          <button class="btn btn-default text-center" value="CE">CE</button> </li></div><div class="columnLI3">
+        <li style= "width:5rem; display: flex; text-align:;">
+          <button class="btn btn-default text-center" value="%">%</button></li></div>
+         <div class="columnLI4"> <li style= "width:5rem; display: flex; text-align:;"><button class="btn btn-default text-center" value="/">/</button>
+        </li></div>
+<div class="columnLI1">
+        <li style= "width:5rem; display: flex; text-align:;">
+          <button class="btn btn-default text-center" value="1">1</button></li></div> <div class="columnLI2">
+        <li style= "width:5rem; display: flex; text-align:;">
+          <button class="btn btn-default text-center" value="2">2</button></li></div>
+<div class="columnLI3">
+        <li style= "width:5rem; display: flex; text-align:;">
+          <button class="btn btn-default text-center" value="3">3</button></li></div>
+          <div class="columnLI4"><li style= "width:5rem; display: flex; text-align:;"> <button class="btn btn-default text-center" value="*">*</button></li>
+ </div>
+<div class="columnLI1">
+        <li style= "width:5rem; display: flex; text-align:;">
+          <button class="btn btn-default text-center" value="4">4</button></li></div>
+<div class="columnLI2">
+        <li style= "width:5rem; display: flex; text-align:;">
+          <button class="btn btn-default text-center" value="5">5</button></li></div>
+<div class="columnLI3">
+        <li style= "width:5rem; display: flex; text-align:;">
+          <button class="btn btn-default text-center" value="6">6</button></li></div>
+<div class="columnLI4"><li style= "width:5rem; display: flex; text-align:;">
+          <button class="btn btn-default text-center" value="-">-</button>
+        </li></div>
+<div class="columnLI1">
+        <li style= "width:5rem; display: flex; text-align:;">
+          <button class="btn btn-default text-center" value="7">7</button> </li></div><div class="columnLI2">
+        <li style= "width:5rem; display: flex; text-align:;">
+          <button class="btn btn-default text-center" value="8">8</button> </li></div><div class="columnLI3">
+        <li style= "width:5rem; display: flex; text-align:;">
+          <button class="btn btn-default text-center" value="9">9</button></li></div>
+           <div class="columnLI4"><li style= "width:5rem; display: flex; text-align:;"><button class="btn btn-default text-center" value="+">+</button>
+        </li></div>
+<div class="columnLI1">
+        <li style= "width:5rem; display: flex; text-align:;">
+          <button class="btn btn-default text-center" value=".">.</button> </li></div><div class="columnLI2">
+        <li style= "width:5rem; display: flex; text-align:;">
+          <button class="btn btn-default text-center" value="0">0</button> </li></div><div class="columnLI3">
+        <li style= "width:5rem; display: flex; text-align:;">
+          <button class="btn btn-default text-center" value="+/-">+/-</button></li></div>
+ <div class="columnLI4">
+          <li style= "width:5rem; display: flex; text-align:;"><button class="btn btn-default text-center" value="=">=</button>
+        </li></div>
+      </ol>
+    </div>
+  </div>
+</main>
+    </div>  
+</div>
+    </div></div></div>
+<div id="target">
+  <div id="content">
+  <div class="app-body">
+
+      
+   </div></div></div></div>
+      <div class="container" style="height:100%;">
+    <h2></h2>
+<h1>"Deus abençoe!"</h1>
+    <div class="tasks">
+      <div style="display: flex;justify-content: space-between">
+       
+      
+
+      
+</div>
+    
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Clicando neste botão o Histórico Local deste site será apagado</label>
+      
+  
+<script src="test.js"></script>
+
+  
+ 
+
+  <button type="submit" onClick="refreshPage()" class="openpopup3" style= "background:;">Refresh Button</button>
+
+ </div>
+</div></div></div></div>
+
+
+
+
+  
+
+
+<div class="TheNav" style="z-index:180;">
+
+  <div class="tray " style= "position:fixed; z-index:190; margin-top: 0.3rem; margin-left:0%;">
+  <div class="count">
+  </div>
+<i class="fa fa-shopping-cart fa-2x" aria-hidden="true"><p class= "trayN">Vendas</p></i>
+ </div>
+
+
+<div id="tray3" style= "position:fixed; z-index:190; margin-left: 82%; margin-top: -1.8rem;">
+  <div class="count">
+  </div style= "margin-left: %;">
+<i class="fa fa-search fa-2x" aria-hidden="true"><p class="trayN">Procurar</p></i>
+ </div>
+
+<div class="tray2c" style= "position:fixed; z-index:190; margin-left: 44.5%; margin-top: -4.1rem;">
+  <div class="count">
+  </div>
+<i class="fa fa-2x" aria-hidden="true">TG<p class= "trayN">Tabela</p></i>
+ </div>
+</div>
+
+
+<header>
+<!-- Note -->
+<div id="myHeader000" style="background: #CDE8F1; padding:25px; -webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #1B404D; color:#1B404D;"></div>
+<div id="myHeader000" style="background: #CDE8F1; padding:25px; -webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #1B404D; color:#1B404D; text-align: center;">
+  <h1 style="text-align:center">Caderno de Vendas</h1>
+</div>
+
+<div class= "myHeader0a" id="myHeader0a1"></div>
+
+
+<!-- Header -->
+<div class="header" style= "height:; background: #CDE8F1; -webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #1B404D; color:#1B404D; font-size: 2rem;">
+  <h1 style= "font-size: 4rem;">Fundo Bíblico</h1>
+  
+</div>
+
+<div class= "myHeader0a" id="myHeader0a1"></div>
+
+
+<!-- An element with a unique id -->
+
+
+
+<!-- Note -->
+<div id="myHeader000" style="background: #CDE8F1; padding:25px; -webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #1B404D; color:#1B404D;">
+  <h1 style="text-align:center">Guararema Central</h1>
+</div>
+
+
+<!-- Navigation Bar -->
+<div class=" rowB">
+
+<div class="sideB1 trayB">
+  <a  class="">Tabela Geral</a></div>
+<div class="mainB tray2d" style="width:%; padding:rem rem;"><a class= "" >Tarefas</a></div><div class="sideB2 tray1">
+ <a  class=" "> Vendas</a></div>
+
+</div>
+
+
+
+
+<div class="app6" style= "margin-top: rem; position:relative ;">
+<div class="closewindow" style= "margin-top:;">
+<span>x</span>
+</div>
+
+<h2>Encomendas</h2>
+
+      <i class="fa fa-shopping-bag fa-3x" aria-hidden="true" ></i>
+    <p>Tabela com os produtos, preços (valores), estoque.</p>
+<p>É aconselhavel fazer cópias da tabela em PDF ou imprimir-la.</p>
+  <div class="tooltipshop">Artigo não inserido</div>
+  <div class="tooltipshop2">Choose a product</div>
+
+<div class= "scrollmenuB" style= "height: 100%;">
+
+    
+<div id="target2">
+  <div id="content">
+  <div class="app-body">
+
+
+<div id="print-area-2" class="print-area">
+
+<div class="fixA">Tabela de Encomendas</div>
+<!--Tabela com a lista de dados-->
+        
+
+            <table id="tblList1" class="table table-bordered"></table>
+    <style>
+table, th, td {
+  border:1px solid black; text-align:center;
+}</style>   
+
+<div id= "Erase" style= "background:white; padding:100% 3rem ; width: 20%; height: 100%; overflow:;position:relative; margin-top:-200%; margin-left: 83.8rem;"> </div>
+   </div>     </div>
+      <textarea id="printing-css" style="display:none;"></textarea>
+<iframe id="printing-frame" name="print_frame" src="about:blank" style="display:none;"></iframe>
+   </div></div></div>
+
+
+<div class= "scrollmenuB" style= "height: 15rem;">
+
+  <script src="https://unpkg.com/pdfjs-dist/build/pdf.js"></script>
+<!-- Do not load this from the CDN, instead use pdfjsLib.GlobalWorkerOptions.workerSrc in your JS to set this -->
+<!--<script src="https://unpkg.com/pdfjs-dist@2/build/pdf.worker.js"></script>-->
+
+<h1>Leitor de PDF</h1>
+
+<div>
+  <form id="pdfUpload">
+<div style="padding-top: px">
+      <button type="button" id="prevBtn" onclick="nextPrev(-1)" style= "background:#000;">Previous</button>
+      <button type="button" id="nextBtn" onclick="nextPrev(1)" style= "background: #000;">Next</button>
+    </div>
+    <div class="step">
+      <input type="file" id="the_pdf" accept=".pdf,application/pdf" required>
+    </div>
+
+    <div class="step">
+      <img id="pdf_preview">
+      <span id="preview_msg">Preview loading</span>
+      
+    </div>
+    
+  </form>
+</div>
+</div>
+
+<canvas id="the-canvas" style="direction: ltr; display: none"></canvas>
+
+<div id="myDIV1">
+<div class="container">
+            <form id="frmPerson1" class="form-horizontal">
+<div class="form-group">
+                    <label for="txtName" class="col-lg-2 control-label">Código/Produto/Valor </label>
+                    <div class="col-sm-4">
+                        
+                        <select type="" id="Cod" class="form-control child" placeholder="Produto">
+<option  selected>
+</option>
+<option>(B-1) Bi&#x301;blia média, capa dura percalux</option>
+<option>(B-3) Bíblia média, dourada, recouro, índice </option>
+<option>(B-5L) Bíblia grande, púlpilto, beira dourada</option>
+<option>(B-6) Bíblia mini, dourada, índice, preta </option>
+<option>(B-8) Bíblia média, letras grandes, Índice, dicion.,concord.</option>
+<option>(B-9) Bíblia pequena, dourada, recouro, índice</option>
+<option>(B-10) Bíblia pequena, branca, recouro, índice </option>
+<option>(B-11) Bíblia tipo cartelra, preta, recouro, índice</option>
+<option>(B-12) Bíblia tipo carteira, branca, recouro, índice</option>
+<option>(B-13) Bíblia mini, dourada, índice, branca</option>
+<option>(B-14) Bíblia média, dicion., Concord., recouro, índice</option>
+<option>(B-15) Bíblia média, capa mole, papel laminado</option>
+<option>(B-16) Bíblia e Hinário módie, capa recouro, índice</option>
+<option>(B-17)  Bíblia o Hinário poquena, capa recouro, índice</option>
+<option>(B-18) Bíblia e Hinário letra grande, Conoord., Dicionário</option>
+<option>(B-19) Bíblia e Hinário letra grande
+</option>
+<option>(B-20) Bíblia e Hinário pequena, capa branca, índice.</option>
+<option>(B-21)
+Bíblia c/Hinário musical, capa preta, Tam.170x130mm</option>
+<option>(B-22)
+Biblia c/Hinárlo musical, capa preta, Tam.100x130mn</option>
+<option>(B-23)
+Bíblia c/Hinário musical, capa branca,Tam. 100x130mm</option>
+
+  <option ></option>
+
+<option>(BZ-2) Bíblia pequena, capa recouro, índice, ziper</option>
+<option>(BZ-3) Bíblia grande, capa recouro, índice, ziper</option>
+<option>(BZ-5) Bíblia mini, capa recouro, índice, zíper</option>
+<option>(BZ-16) Bíblia c/ Hinárlo grande, capa recouro, índice, zíper</option>
+<option>(BZ-17) Bíblia c/ Hinário pequena, capa recouro, índice, zíper</option>
+
+ <option ></option>
+
+<option>(HC-101B) Hinário de canto, capa dura branco, pequeno</option>
+<option>(HC-101P) Hinário de canto, capa dura preto, pequeno</option>
+<option>(HC-102B) Hinário de canto, capa recouro branco, pequeno</option>
+<option>(HC-102P) Hinário de canto, capa recouro preto, pequeno</option>
+<option>(HC-103 B) Hinário de canto, capa dura branco, grande</option>
+<option>(HC-103 P) Hinário de canto, capa dura preto, grande</option>
+<option>(HC-105 B) Hinário de canto, capa recouro branco, grande</option>
+<option>(HC-105 P) Hinário de canto, capa recouro preto, grande</option>
+<option>(HC-205) Hinário de canto, capa recouro preto, extra grande</option>
+<option>(HC-206) Hinário de canto, extra grande, espiral- Púlpito</option>
+
+  <option ></option>
+
+<option>(HM-102) Hinário de música, médio-DÓ</option>
+<option>(HM-109) Hinário de música, médio-ORGÃO</option>
+<option>(HM-110) Hinário de música, médio- Si Bemol</option>
+<option>(HM-111) Hinário de música, médio-Mi Bemol</option>
+<option>(HM-113) Hinário de música, médio- CORDAS</option>
+<option>(HM-116) Hinário de música, médio-FÁ</option>
+<option>(HM-202) Hinário de música, pequeno- DÓ</option>
+<option>(HM-209) Hinário de música, pequeno-ORGÃO</option>
+<option>(HM-210) Hinário de música, pequeno-Si Bemol</option>
+<option>(HM-211) Hinário de música, pequeno-Mi Bemol</option>
+<option>(HM-213) Hinário de música, pequeno-CORDAS</option>
+<option>(HM-302) Hinário de música, grande-DÓ</option>
+<option>(HM309) Hinário de música, grande-ORGÃO</option>
+<option>(HM313) Hinário de música, grande-CORDAS</option>
+<option>(HM-414) Hin.música, gigante- Clave de SOL- Def. Visual</option>
+<option>(HM415) Hin.música, gigante-Clave de FÁ- Deficiente Visual</option>
+<option>(HM-502 B) Hinário de música, mini- DÓ</option>
+<option>(HM-502 P) Hinário de música, mini-DÓ</option>
+
+
+  <option ></option>
+
+<option>(MOO) Manual Orientação Orquestra</option>
+<option>(MTS-1) Método de teoria e solfejo</option>
+<option>(REL) Relatório Edição N° 84</option>
+<option>(RES-ESP) Livreto Resumo, Histórico e Mensagens-ESPANHOL</option>
+<option>(#MOR-V1) Método para Organista- Volume 1</option>
+<option>(MOR-V2) Método para Organista-Volume 2</option>
+<option>(MOR-V3) Método para Organista- Volume 3</option>
+<option>(MOR-V4) Método para Organista - Volume 4</option>
+<option>(MIN) Manual para Instrutora</option>
+
+  <option ></option>
+<option>(VA-A) Véu de algodão, para adulto</option>
+<option>(VA-C) Véu de algodão, para criança</option>
+<option>(VB-A) Véu c/ bolsa-adulto</option>
+<option>(VB-C) Véu c/ bolsa -criança</option>
+<option>(VR-A) Véu Redondo de algodão, para adulto</option>
+
+
+  <option ></option>
+
+
+  
+</select>
+                    </div>
+                </div>  
+
+<div class="form-group">
+                    <label for="txtName" class="col-lg-2 control-label">Pagamento</label>
+                    <div class="col-sm-4">
+                        
+<select type="text" id="Pag"  placeholder="" class="Pay form-control mySelect"  name="text" rows="3">
+<option  selected>__(Pago)__</option>
+  <option >__Não Pago__</option>
+  <option >Acertado</option>
+ <option>Encomenda-Pago</option>
+  <option>Encomenda-Não Pago</option>
+  
+  
+</select>
+                    </div>
+                </div>   
+<div class="form-group">
+                    <label for="txtName" class="col-lg-2 control-label">Nome</label>
+                    <div class="col-sm-4">
+                        <input type="text" id="Na"  placeholder="Nome" class="form-control mySelect"  name="text" rows="3">
+
+                    </div>
+                </div> 
+<div class="form-group">
+                    <label for="txtName" class="col-lg-2 control-label">Telefone</label>
+                    <div class="col-sm-4">
+                        <input type="text" id="Te"  placeholder="Telefone" class="form-control mySelect"  name="text" rows="3">
+
+                    </div>
+                </div>                  
+                <div class="form-group">
+                    <label for="txtName" class="col-lg-2 control-label">Rede-Social</label>
+                    <div class="col-sm-4">
+                        <input type="text" id="Rs"  placeholder="Redes-Sociais" class="form-control mySelect"  name="text" rows="3">
+
+                    </div>
+                </div>
+              
+
+              <div class="form-group">
+                    <label for="txtName" class="col-lg-2 control-label">Email</label>
+                    <div class="col-sm-4">
+                        <input type="text" id="Em" class="form-control" placeholder="Email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="txtPhone" class="col-lg-2 control-label">Informações</label>
+                    <div class="col-sm-4">
+                        <input type="text" id="Inf" class="form-control" placeholder="Informações">
+                    </div>
+                </div>
+                
+ <div class="form-group">
+                    <label for="txt" class="col-lg-2 control-label">Data</label>
+                    <div class="col-sm-4">
+                        <input type="date" id="Dat" class="form-control" placeholder="Data">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-lg-offset-2 col-sm-4">
+                        <input type="submit"   value="Confirmar" class="btnSave btn btn-success tray2" style="border-radius: 80px 80px; width: 8rem;">
+                    </div></div>
+                </div>
+            </form>
+        </div>
+<div class="flex-container">
+
+<button class= "iv" style="text-align:; background: #000;"><a class="no-print" href="javascript:printDiv('print-area-2');">Imprimir</a></button>
+   
+
+<button onclick="myFunctionEr()" class= "iv" style= "background:#000;">Apagar on</button>
+
+<button onclick="myFunctionEr2()" class= "iv" style= "background:#000;">Apagar off</button>
+
+
+
+<script>
+function myFunctionEr() {
+  document.getElementById("Erase").style.zIndex = "-1";
+}
+</script>
+
+<script>
+function myFunctionEr2() {
+  document.getElementById("Erase").style.zIndex = "20";
+}/*https://www.w3schools.com/cssref/pr_pos_z-index.asp*/
+</script>
+
+</div>
+
+      
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Salvar como PDF</label>
+      
+  </div>
+<script src="test.js"></script>
+
+   
+      
+
+   <!-- <div class="openpopup">
+Ir para o checkout
+</div>-->
+ 
+<button class= "openpopup3" style="text-align:; background: ;"><a class="no-print" href="javascript:printDiv('print-area-2');">Salvar PDF/ Imprimir</a></button>
+<button type="submit" onClick="refreshPage()" class="openpopup3" style= "background:;">Refresh Page</button>
+<button type="submit" onClick="refreshPage()" class="openpopup3" style= "background:;">Refresh Button</button>
+  
+ </div>
+</div></div>
+
+
+
+
+<div class= "scrollmenuB" style= "height: 6rem;">
+<div class= "info"> A Paz de Deus! Amém!&emsp;<input type="email" id="F" placeholder="Escrever..." style=" border:none; background: #0000;"/>Repor véu&emsp;<input type="email" id="F0" placeholder="Escrever..."style=" border:none; background: #0000;"/> 
+</div>
+</div>
+
+<div style="background: #CDE8F1; padding:2rem;">
+
+<button class="accordion" style="width:90%">Escrever...</button>
+<div class="panel">
+  
+
+<h1 id="mainTitle">&nbsp;</h1>
+<p>Escreva as informações desejadas em cada campo abaixo.</p>
+<p>Em seguida confirme no botão OK para que as informações sejam armazenadas e apareçam no texto.</p>
+	<div class="question">	
+<label>Texto 1</label>
+		<input type="email" id="F" name="firstName" data-validation="vrule_required, vrule_textInput, vrule_minLength(3)" />
+		<span class="error-message"></span>
+	</div>
+<p></p>
+	<div class="question">		
+<label>Texto 2</label>
+		<input type="email" id="F0" name="firstName" data-validation="vrule_required, vrule_textInput, vrule_minLength(3)" />
+		<span class="error-message"></span>
+	</div>
+
+	<button type="button"  onClick="refreshPage()" class="openpopup3 btn" style= "background:; margin-left: 40%;">OK</button><p></p></div>
+<button class=" tray4" style="width:90%; color:black;">Preencher</button>
+<button class=" tray5" style="width:90%; color:black;">Calculadora</button></div>
+</form>
+
+
+<div class="h">
+<h2>"A Paz de Deus!"</h2>
+<p>"Amém!"</p>
+</div>
+
+<button class=" tray6" style="width:90%; color:black;">Encomendas</button>
+
+<button class=" tray2e" style="width:90%; color:black;">Almoxarifado</button>
+
+
+<h2>Compras</h2>
+      <i class="fa fa-shopping-bag fa-3x" aria-hidden="true" ></i>
+    <p>Selecione os produtos desejados.</p>
+  <div class="tooltipshop">Artigo não inserido</div>
+  <div class="tooltipshop2">Choose a product</div>
+
+
+
+<div class="container">
+    
+    
+     <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Em seguida preencha os Campos com as devidas informações.</label>
+
+
+
+
+ 
+<div class= "" style= "height: %; position:relative; width:98%;">
+
+
+<div class="row">
+
+<div style= "padding: 2%; width: 100%; height:2.5rem; background-color: white; color: white;"></div>
+<div id= "AB1" style= "padding: 2%; width: 100%; height:2.5rem; background-color: #1B404D; color: white;">Bíblia sem Zíper</div>
+  <div class="side1" style="background-color:#0000;">
+<div class="card" id= "A1" style= "background: ;">
+            <img src="https://www.dropbox.com/s/qziaxrjwozaz50p/Pho.png?raw=1" alt="">
+            <p class="title">Bíblia</p>
+
+<p class="code" style="font-size:1.7rem;">B-3</p>
+            <p class="description" style= font-size:1.3rem;">Bíblia média, dourada, recouro, índice</p>
+            <p class="price">R$25</p>
+     
+
+<div class= "conf" style= "margin-top: -3.5rem; margin-left: 2%;">       
+        <button class= "confir tray4" type="button"     style= "background-color:#000;
+  color: ; margin-top: -10%; z-index:20; background: ; " onclick="myFunction(); a1();b1();c1();d1();"/>Confirmar</button>
+
+<div class= "conD" style= "margin-top: 2.9rem; margin-left: -1.3rem;">
+<p class= "conE" >Em estoque</p>
+<p class= "con" id="demoL1" ></p></div></div>
+</div>
+</div>
+
+ <div class="side2" id= "A2" style="background-color:#0000;">    
+<div class="card" id= "" style= "background: ;">
+            <img src="https://www.dropbox.com/s/qziaxrjwozaz50p/Pho.png?raw=1" alt="">
+            <p class="title">Bíblia</p>
+<p class="code" style="font-size:1.7rem;">B-6</p>
+            <p class="description" style= font-size:1.3rem;">Bíblia mini, dourada, índice, preta</p>
+            <p class="price">R$22</p>
+            
+        <div class= "conf" style= "margin-top: -3.5rem; margin-left: 2%;">       
+        <button class= "confir tray4" type="button"     style= "background-color:#000;
+  color: ; margin-top: -10%; z-index:20; background: ; " onclick="myFunction2(); a2();b2();c2();d2();"/>Confirmar</button>
+
+<div class= "conD" style= "margin-top: 2.9rem; margin-left: -1.3rem;">
+<p class= "conE" >Em estoque</p>
+<p class= "con" id="demoL2" ></p></div></div></div></div>
+
+
+ <div class="side1" style="background-color:#0000;">
+<div class="card" id= "A3" style= "background: ;">
+            <img src="https://www.dropbox.com/s/qziaxrjwozaz50p/Pho.png?raw=1" alt="">
+            <p class="title" id="">Bíblia</p>
+<p class="code">B-10</p>
+            <p class="description">Bíblia pequena, branca, recouro, índice</p>
+            <p class="price">R$25</p>
+            
+        <div class= "conf" style= "margin-top: -3.5rem; margin-left: 2%;">       
+        <button class= "confir tray4" type="button"     style= "background-color:#000;
+  color: ; margin-top: -10%; z-index:20; background: ; " onclick="myFunction3(); a3();b3();c3();d3();"/>Confirmar</button>
+
+<div class= "conD" style= "margin-top: 2.9rem; margin-left: -1.3rem;">
+<p class= "conE" >Em estoque</p>
+<p class= "con" id="demoL3" ></p></div></div></div></div>
+
+
+ <div class="side2" id="A4" style="background-color:#0000;">
+<div class="card" style= "background: ;">
+            <img src="https://www.dropbox.com/s/qziaxrjwozaz50p/Pho.png?raw=1" alt="">
+            <p class="title">Bíblia</p>
+<p class="code">B-14</p>
+            <p class="description">Bíblia média, dicion., Concord., recouro, índice</p>
+            <p class="price">R$35</p>
+            
+    <div class= "conf" style= "margin-top: -3.5rem; margin-left: 2%;">       
+        <button class= "confir tray4" type="button"     style= "background-color:#000;
+  color: ; margin-top: -10%; z-index:20; background: ; " onclick="myFunction4();a4();b4();c4();d4();"/>Confirmar</button>
+
+<div class= "conD" style= "margin-top: 2.9rem; margin-left: -1.3rem;">
+<p class= "conE" >Em estoque</p>
+<p class= "con" id="demoL4" ></p>
+</div></div></div></div>
+
+
+<div class="side1" style="background-color:#0000;">
+<div class="card" id= "A5" style= "background: ;">
+            <img src="https://www.dropbox.com/s/qziaxrjwozaz50p/Pho.png?raw=1" alt="">
+            <p class="title">Bíblia</p>
+
+<p class="code" style="font-size:1.7rem;">B-17</p>
+            <p class="description" style= font-size:1.3rem;">Bíblia e Hinário pequena, capa recouro, índice</p>
+            <p class="price">R$25</p>
+     
+     
+
+<div class= "conf" style= "margin-top: -3.5rem; margin-left: 2%;">       
+        <button class= "confir tray4" type="button"     style= "background-color:#000;
+  color: ; margin-top: -10%; z-index:20; background: ; " onclick="myFunction5();a5();b5();c5();d5();"/>Confirmar</button>
+
+<div class= "conD" style= "margin-top: 2.9rem; margin-left: -1.3rem;">
+<p class= "conE" >Em estoque</p>
+<p class= "con" id="demoL5" ></p></div></div></div></div>
+
+
+ <div class="side2" id= "A6" style="background-color:#0000;">    
+<div class="card" id= "" style= "background: ;">
+            <img src="https://www.dropbox.com/s/qziaxrjwozaz50p/Pho.png?raw=1" alt="">
+            <p class="title">Bíblia</p>
+<p class="code" style="font-size:1.7rem;">B-18</p>
+            <p class="description"> Bíblia e Hinário letra grande, Conoord., Dicionário</p>
+            <p class="price">R$24</p></p>
+            
+            
+        <div class= "conf" style= "margin-top: -3.5rem; margin-left: 2%;">       
+        <button class= "confir tray4" type="button"     style= "background-color:#000;
+  color: ; margin-top: -10%; z-index:20; background: ; " onclick="myFunction6();a6();b6();c6();d6();"/>Confirmar</button>
+
+<div class= "conD" style= "margin-top: 2.9rem; margin-left: -1.3rem;">
+<p class= "conE" >Em estoque</p>
+<p class= "con" id="demoL6" ></p></div></div></div></div>
+
+
+ <div class="side1" style="background-color:#0000;">
+<div class="card" id= "A7" style= "background: ;">
+            <img src="https://www.dropbox.com/s/qziaxrjwozaz50p/Pho.png?raw=1" alt="">
+            <p class="title" id="">Bíblia</p>
+<p class="code">B-19</p>
+            <p class="description"> Bíblia e Hinário letra grande
+</p>
+            <p class="price">R$5</p>
+            
+        <div class= "conf" style= "margin-top: -3.5rem; margin-left: 2%;">       
+        <button class= "confir tray4" type="button"     style= "background-color:#000;
+  color: ; margin-top: -10%; z-index:20; background: ; " onclick="myFunction7();a7();b7();c7();d7();"/>Confirmar</button>
+
+<div class= "conD" style= "margin-top: 2.9rem; margin-left: -1.3rem;">
+<p class= "conE" >Em estoque</p>
+<p class= "con" id="demoL7" ></p></div></div></div></div>
+
+
+ <div class="side2" id="A8" style="background-color:#0000;">
+<div class="card" style= "background: ;">
+            <img src="https://www.dropbox.com/s/qziaxrjwozaz50p/Pho.png?raw=1" alt="">
+            <p class="title">Bíblia</p>
+<p class="code">B-20</p>
+            <p class="description"> Bíblia e Hinário pequena, capa branca, índice.</p>
+            <p class="price">R$25</p>
+
+    <div class= "conf" style= "margin-top: -3.5rem; margin-left: 2%;">       
+        <button class= "confir tray4" type="button"     style= "background-color:#000;
+  color: ; margin-top: -10%; z-index:20; background: ; " onclick="myFunction8();a8();b8();c8();d8();"/>Confirmar</button>
+
+<div class= "conD" style= "margin-top: 2.9rem; margin-left: -1.3rem;">
+<p class= "conE" >Em estoque</p>
+<p class= "con" id="demoL8" ></p></div></div></div></div>
+
+
+ <div class="side1" style="background-color:#0000;">
+<div class="card" id= "AE1" style= "background: ;">
+            <img src="https://www.dropbox.com/s/qziaxrjwozaz50p/Pho.png?raw=1" alt="">
+            <p class="title">Bíblia</p>
+
+<p class="code" style="font-size:1.7rem;">B-21</p>
+            <p class="description" style= font-size:1.3rem;">Bíblia média, dourada, recouro, índice</p>
+            <p class="price">R$25</p>
+     
+
+<div class= "conf" style= "margin-top: -3.5rem; margin-left: 2%;">       
+        <button class= "confir" type="button"     style= "background-color:#000;
+  color: ; margin-top: -10%; z-index:20; background: ; " onclick="myFunctionE1();" >Confirmar</button>
+
+<div class= "conD" style= "margin-top: 2.9rem; margin-left: -1.3rem;">
+<p class= "conE" >Encomendar</p>
+
+</div></div>
+</div>
+</div>
+
+ <div class="side2" id= "A9" style="background-color:#0000;">    
+<div class="card" id= "" style= "background: ;">
+            <img src="https://www.dropbox.com/s/qziaxrjwozaz50p/Pho.png?raw=1" alt="">
+            <p class="title">Bíblia</p>
+<p class="code" style="font-size:1.7rem;">B-22</p>
+            <p class="description" style= font-size:1.3rem;">Bíblia mini, dourada, índice, preta</p>
+            <p class="price">R$22</p>
+            
+        <div class= "conf" style= "margin-top: -3.5rem; margin-left: 2%;">       
+        <button class= "confir tray4" type="button"     style= "background-color:#000;
+  color: ; margin-top: -10%; z-index:20; background: ; " onclick="myFunction9();a9();b9();c9();d9();"/>Confirmar</button>
+
+<div class= "conD" style= "margin-top: 2.9rem; margin-left: -1.3rem;">
+<p class= "conE" >Em estoque</p>
+<p class= "con" id="demoL9" ></p></div></div></div></div>
+
+
+<div id= "AB2" style= "padding: 2%; width: 100%; height:2.5rem; background-color: #1B404D; color: white;">Bíblia com Zíper</div>
+
+ <div class="side1" style="background-color:#0000;">
+<div class="card" id= "A10" style= "background: ;">
+            <img src="https://www.dropbox.com/s/qziaxrjwozaz50p/Pho.png?raw=1" alt="">
+            <p class="title">Bíblia</p>
+
+<p class="code" style="font-size:1.7rem;">BZ-2</p>
+            <p class="description" style= font-size:1.3rem;">Bíblia pequena, capa recouro, índice, zíper</p>
+            <p class="price">R$25</p>
+     
+
+<div class= "conf" style= "margin-top: -3.5rem; margin-left: 2%;">       
+        <button class= "confir tray4" type="button"     style= "background-color:#000;
+  color: ; margin-top: -10%; z-index:20; background: ; " onclick="myFunction10();a10();b10();c10();d10();"/>Confirmar</button>
+
+<div class= "conD" style= "margin-top: 2.9rem; margin-left: -1.3rem;">
+<p class= "conE" >Em estoque</p>
+<p class= "con" id="demoL10" ></p></div></div></div></div>
+
+
+ <div class="side2" id= "AE2" style="background-color:#0000;">    
+<div class="card" id= "" style= "background: ;">
+            <img src="https://www.dropbox.com/s/qziaxrjwozaz50p/Pho.png?raw=1" alt="">
+            <p class="title">Bíblia</p>
+<p class="code" style="font-size:1.7rem;">BZ-3</p>
+            <p class="description" style= font-size:1.3rem;">Bíblia grande, capa recouro, índice, preta</p>
+            <p class="price">R$22</p>
+            
+        <div class= "conf" style= "margin-top: -3.5rem; margin-left: 2%;">       
+        <button class= "confir tray4" type="button"     style= "background-color:#000;
+  color: ; margin-top: -10%; z-index:20; background: ; " onclick="myFunctionE2();" />Confirmar</button>
+
+<div class= "conD" style= "margin-top: 2.9rem; margin-left: -1.3rem;">
+<p class= "conE" >Encomendar</p>
+</div></div></div></div>
+
+
+  <div class="side1" style="background-color:#0000;">
+<div class="card" id= "A11" style= "background: ;">
+            <img src="https://www.dropbox.com/s/qziaxrjwozaz50p/Pho.png?raw=1" alt="">
+            <p class="title">Bíblia</p>
+
+<p class="code" style="font-size:1.7rem;">BZ-5</p>
+            <p class="description" style= font-size:1.3rem;">Bíblia mini, capa recouro, índice, zíper</p>
+            <p class="price">R$25</p>
+     
+
+<div class= "conf" style= "margin-top: -3.5rem; margin-left: 2%;">       
+        <button class= "confir tray4" type="button"     style= "background-color:#000;
+  color: ; margin-top: -10%; z-index:20; background: ; " onclick="myFunction11(); a11();b11();c11();d11();"/>Confirmar</button>
+
+<div class= "conD" style= "margin-top: 2.9rem; margin-left: -1.3rem;">
+<p class= "conE" >Em estoque</p>
+<p class= "con" id="demoL11" ></p></div></div></div></div>
+
+
+ <div class="side2" id= "A12" style="background-color:#0000;">    
+<div class="card" id= "" style= "background: ;">
+            <img src="https://www.dropbox.com/s/qziaxrjwozaz50p/Pho.png?raw=1" alt="">
+            <p class="title">Bíblia</p>
+<p class="code" style="font-size:1.7rem;">BZ-17</p>
+            <p class="description" style= font-size:1.3rem;">Bíblia c/ Hinário pequena, capa recouro, índice, zíper</p>
+            <p class="price">R$35</p>
+            
+        <div class= "conf" style= "margin-top: -3.5rem; margin-left: 2%;">       
+        <button class= "confir tray4" type="button"     style= "background-color:#000;
+  color: ; margin-top: -10%; z-index:20; background: ; " onclick="myFunction12(); a12();b12();c12();d12();"/>Confirmar</button>
+
+<div class= "conD" style= "margin-top: 2.9rem; margin-left: -1.3rem;">
+<p class= "conE" >Em estoque</p>
+<p class= "con" id="demoL12" ></p></div></div></div></div>
+
+
+<div id= "AB3" style= "padding: 2%; width: 100%; height:2.5rem; background-color: #1B404D; color: white;">Hinários de Canto</div>
+
+
+  <div class="side1" style="background-color:#0000;">
+<div class="card" id= "A13" style= "background: ;">
+            <img src="https://www.dropbox.com/s/qziaxrjwozaz50p/Pho.png?raw=1" alt="">
+            <p class="title">Hinário</p>
+
+<p class="code" style="font-size:1.7rem;">HC-101B</p>
+            <p class="description" style= font-size:1.3rem;">Hinário de canto, capa dura branco, pequeno</p>
+            <p class="price">R$7</p>
+     
+
+<div class= "conf" style= "margin-top: -3.5rem; margin-left: 2%;">       
+        <button class= "confir tray4" type="button"     style= "background-color:#000;
+  color: ; margin-top: -10%; z-index:20; background: ; " onclick="myFunction13(); a13();b13();c13();d13();"/>Confirmar</button>
+
+<div class= "conD" style= "margin-top: 2.9rem; margin-left: -1.3rem;">
+<p class= "conE" >Em estoque</p>
+<p class= "con" id="demoL13" ></p></div></div></div></div>
+
+
+ <div class="side2" id= "A14" style="background-color:#0000;">    
+<div class="card" id= "" style= "background: ;">
+            <img src="https://www.dropbox.com/s/qziaxrjwozaz50p/Pho.png?raw=1" alt="">
+            <p class="title">Hinário </p>
+<p class="code" style="font-size:1.7rem;">HC-101P</p>
+            <p class="description" style= font-size:1.3rem;">Hinário de canto, capa dura preto, pequeno </p>
+            <p class="price">R$7</p>
+            
+        <div class= "conf" style= "margin-top: -3.5rem; margin-left: 2%;">       
+        <button class= "confir tray4" type="button"     style= "background-color:#000;
+  color: ; margin-top: -10%; z-index:20; background: ; " onclick="myFunction14(); a14();b14();c14();d14();"/>Confirmar</button>
+
+<div class= "conD" style= "margin-top: 2.9rem; margin-left: -1.3rem;">
+<p class= "conE" >Em estoque</p>
+<p class= "con" id="demoL14" ></p></div></div></div></div>
+
+
+<div class="side1" style="background-color:#0000;">
+<div class="card" id= "A15" style= "background: ;">
+            <img src="https://www.dropbox.com/s/qziaxrjwozaz50p/Pho.png?raw=1" alt="">
+            <p class="title">Hinário</p>
+
+<p class="code" style="font-size:1.7rem;">HC-103P</p>
+            <p class="description" style= font-size:1.3rem;">Hinário de canto, capa dura preto, grande</p>
+            <p class="price">R$8</p>
+     
+
+<div class= "conf" style= "margin-top: -3.5rem; margin-left: 2%;">       
+        <button class= "confir tray4" type="button"     style= "background-color:#000;
+  color: ; margin-top: -10%; z-index:20; background: ; " onclick="myFunction15(); a15();b15();c15();d15();"/>Confirmar</button>
+
+<div class= "conD" style= "margin-top: 2.9rem; margin-left: -1.3rem;">
+<p class= "conE" >Em estoque</p>
+<p class= "con" id="demoL15" ></p></div></div></div></div>
+
+
+ <div class="side2" id= "A16" style="background-color:#0000;">    
+<div class="card" id= "" style= "background: ;">
+            <img src="https://www.dropbox.com/s/qziaxrjwozaz50p/Pho.png?raw=1" alt="">
+            <p class="title">Hinário </p>
+<p class="code" style="font-size:1.7rem;">HC-105P</p>
+            <p class="description" style= font-size:1.3rem;">Hinário de canto, capa recouro preto, grande </p>
+            <p class="price">R$14</p>
+            
+        <div class= "conf" style= "margin-top: -3.5rem; margin-left: 2%;">       
+        <button class= "confir tray4" type="button"     style= "background-color:#000;
+  color: ; margin-top: -10%; z-index:20; background: ; " onclick="myFunction16(); a16();b16();c16();d16();"/>Confirmar</button>
+
+<div class= "conD" style= "margin-top: 2.9rem; margin-left: -1.3rem;">
+<p class= "conE" >Em estoque</p>
+<p class= "con" id="demoL16" ></p></div></div></div></div>
+
+
+<div id= "AB4" style= "padding: 2%; width: 100%; height:2.5rem; background-color: #1B404D; color: white;">Hinários Musicais</div>
+
+
+<div class="side1" id= "A17" style="background-color:#0000;">    
+<div class="card" id= "" style= "background: ;">
+            <img src="https://www.dropbox.com/s/qziaxrjwozaz50p/Pho.png?raw=1" alt="">
+            <p class="title">Hinário </p>
+<p class="code" style="font-size:1.7rem;">HM-102</p>
+            <p class="description" style= font-size:1.3rem;">Hinário de música, médio-DÓ</p>
+            <p class="price">R$20</p>
+            
+        <div class= "conf" style= "margin-top: -3.5rem; margin-left: 2%;">       
+        <button class= "confir tray4" type="button"     style= "background-color:#000;
+  color: ; margin-top: -10%; z-index:20; background: ; " onclick="myFunction17(); a17();b17();c17();d17();"/>Confirmar</button>
+
+<div class= "conD" style= "margin-top: 2.9rem; margin-left: -1.3rem;">
+<p class= "conE" >Em estoque</p>
+<p class= "con" id="demoL17" ></p></div></div></div></div>
+
+
+  <div class="side2" style="background-color:#0000;">
+<div class="card" id= "AE3" style= "background: ;">
+            <img src="https://www.dropbox.com/s/qziaxrjwozaz50p/Pho.png?raw=1" alt="">
+            <p class="title">Hinário</p>
+
+<p class="code" style="font-size:1.7rem;">HM-109</p>
+            <p class="description" style= font-size:1.3rem;">Hinário de música, médio-ORGÃO</p>
+            <p class="price">R$26</p>
+     
+
+<div class= "conf" style= "margin-top: -3.5rem; margin-left: 2%;">       
+        <button class= "confir tray4" type="button"     style= "background-color:#000;
+  color: ; margin-top: -10%; z-index:20; background: ; " onclick="myFunctionE3();" />Confirmar</button>
+
+<div class= "conD" style= "margin-top: 2.9rem; margin-left: -1.3rem;">
+<p class= "conE" >Encomendar</p>
+</div></div></div></div>
+
+
+<div class="side1" id= "A18" style="background-color:#0000;">    
+<div class="card" id= "" style= "background: ;">
+            <img src="https://www.dropbox.com/s/qziaxrjwozaz50p/Pho.png?raw=1" alt="">
+            <p class="title">Hinário </p>
+<p class="code" style="font-size:1.7rem;">HM-110</p>
+            <p class="description" style= font-size:1.3rem;">Hinário de música, médio-Si Bemol</p>
+            <p class="price">R$20</p>
+            
+        <div class= "conf" style= "margin-top: -3.5rem; margin-left: 2%;">       
+        <button class= "confir tray4" type="button"     style= "background-color:#000;
+  color: ; margin-top: -10%; z-index:20; background: ; " onclick="myFunction18(); a18();b18();c18();d18();"/>Confirmar</button>
+
+<div class= "conD" style= "margin-top: 2.9rem; margin-left: -1.3rem;">
+<p class= "conE" >Em estoque</p>
+<p class= "con" id="demoL18" ></p></div></div></div></div>
+
+
+ <div class="side2" id= "A19" style="background-color:#0000;">    
+<div class="card" id= "" style= "background: ;">
+            <img src="https://www.dropbox.com/s/qziaxrjwozaz50p/Pho.png?raw=1" alt="">
+            <p class="title">Hinário </p>
+<p class="code" style="font-size:1.7rem;">HM-113</p>
+            <p class="description" style= font-size:1.3rem;">Hinário de música, médio-CORDAS</p>
+            <p class="price">R$24</p>
+            
+        <div class= "conf" style= "margin-top: -3.5rem; margin-left: 2%;">       
+        <button class= "confir tray4" type="button"     style= "background-color:#000;
+  color: ; margin-top: -10%; z-index:20; background: ; " onclick="myFunction19(); onclick="myFunction();a19();b19();c19();d19();"/>Confirmar</button>
+
+<div class= "conD" style= "margin-top: 2.9rem; margin-left: -1.3rem;">
+<p class= "conE" >Em estoque</p>
+<p class= "con" id="demoL19" ></p></div></div></div></div>
+
+
+<div class="side1" id= "A20" style="background-color:#0000;">    
+<div class="card" id= "" style= "background: ;">
+            <img src="https://www.dropbox.com/s/qziaxrjwozaz50p/Pho.png?raw=1" alt="">
+            <p class="title">Hinário </p>
+<p class="code" style="font-size:1.7rem;">HM-211</p>
+            <p class="description" style= font-size:1.3rem;">Hinário de música, médio-Mi Bemol</p>
+            <p class="price">R$14</p>
+            
+        <div class= "conf" style= "margin-top: -3.5rem; margin-left: 2%;">       
+        <button class= "confir tray4" type="button"     style= "background-color:#000;
+  color: ; margin-top: -10%; z-index:20; background: ; " onclick="myFunction20(); a20();b20();c20();d20();"/>Confirmar</button>
+
+<div class= "conD" style= "margin-top: 2.9rem; margin-left: -1.3rem;">
+<p class= "conE" >Em estoque</p>
+<p class= "con" id="demoL20" ></p></div></div></div></div>
+
+
+<div class="side2" id= "A21" style="background-color:#0000;">    
+<div class="card" id= "" style= "background: ;">
+            <img src="https://www.dropbox.com/s/qziaxrjwozaz50p/Pho.png?raw=1" alt="">
+            <p class="title">Hinário </p>
+<p class="code" style="font-size:1.7rem;">HM-502P</p>
+            <p class="description" style= font-size:1.3rem;">Hinário de música, mini-DÓ</p>
+            <p class="price">R$14</p>
+            
+        <div class= "conf" style= "margin-top: -3.5rem; margin-left: 2%;">       
+        <button class= "confir tray4" type="button"     style= "background-color:#000;
+  color: ; margin-top: -10%; z-index:20; background: ; " onclick="myFunction21(); a21();b21();c21();d21();"/>Confirmar</button>
+
+<div class= "conD" style= "margin-top: 2.9rem; margin-left: -1.3rem;">
+<p class= "conE" >Em estoque</p>
+<p class= "con" id="demoL21" ></p></div></div></div></div>
+
+
+<div id= "AB5" style= "padding: 2%; width: 100%; height:2.5rem; background-color: #1B404D; color: white;">Lívros/Livretos</div>
+
+  <div class="side1" style="background-color:#0000;">
+<div class="card" id= "A22" style= "background: ;">
+            <img src="https://www.dropbox.com/s/2hdpo240gv7i24j/moo4.png?raw=1" alt="">
+            <p class="title">MOO</p>
+
+<p class="code" style="font-size:1.7rem;">MOO</p>
+            <p class="description" style= font-size:1.3rem;">Manual Orientação Orquestra</p>
+            <p class="price">R$5</p>
+     
+
+<div class= "conf" style= "margin-top: -3.5rem; margin-left: 2%;">       
+        <button class= "confir tray4" type="button"     style= "background-color:#000;
+  color: ; margin-top: -10%; z-index:20; background: ; " onclick="myFunction22(); a22();b22();c22();d22();"/>Confirmar</button>
+
+<div class= "conD" style= "margin-top: 2.9rem; margin-left: -1.3rem;">
+<p class= "conE" >Em estoque</p>
+<p class= "con" id="demoL22" ></p></div></div></div></div>
+
+
+ <div class="side2" id= "A23" style="background-color:#0000;">    
+<div class="card" id= "" style= "background: ;">
+            <img src="https://www.dropbox.com/s/qziaxrjwozaz50p/Pho.png?raw=1" alt="">
+            <p class="title">MTS</p>
+<p class="code" style="font-size:1.7rem;">MTS-1</p>
+            <p class="description" style= font-size:1.3rem;"> Método de teoria e solfejo</p>
+            <p class="price">R$5</p>
+            
+        <div class= "conf" style= "margin-top: -3.5rem; margin-left: 2%;">       
+        <button class= "confir tray4" type="button"     style= "background-color:#000;
+  color: ; margin-top: -10%; z-index:20; background: ; " onclick="myFunction23(); a23();b23();c23();d23();"/>Confirmar</button>
+
+<div class= "conD">
+<p class= "conE" >Em estoque</p>
+<p class= "con" id="demoL23" ></p></div></div></div></div>
+
+<div class="side1" style="background-color:#0000;">
+<div class="card" id= "A24" style= "background: ;">
+            <img src="https://www.dropbox.com/s/2hdpo240gv7i24j/moo4.png?raw=1" alt="">
+            <p class="title">MOR-V1</p>
+
+<p class="code" style="font-size:1.7rem;">MOR-V1</p>
+            <p class="description" style= font-size:1.3rem;">Método para Organista-Volume 1</p>
+            <p class="price">R$8</p>
+     
+
+<div class= "conf" style= "margin-top: -3.5rem; margin-left: 2%;">       
+        <button class= "confir tray4" type="button"     style= "background-color:#000;
+  color: ; margin-top: -10%; z-index:20; background: ; " onclick="myFunction24(); a24();b24();c24();d24();"/>Confirmar</button>
+
+<div class= "conD" style= "margin-top: 2.9rem; margin-left: -1.3rem;">
+<p class= "conE" >Em estoque</p>
+<p class= "con" id="demoL24" ></p></div></div></div></div>
+
+
+ <div class="side2" id= "A25" style="background-color:#0000;">    
+<div class="card" id= "" style= "background: ;">
+            <img src="https://www.dropbox.com/s/qziaxrjwozaz50p/Pho.png?raw=1" alt="">
+            <p class="title">MOR-V2</p>
+<p class="code" style="font-size:1.7rem;">MOR-V2</p>
+            <p class="description" style= font-size:1.3rem;"> Método para Organista-Volume 2</p>
+            <p class="price">R$8</p>
+            
+        <div class= "conf" style= "margin-top: -3.5rem; margin-left: 2%;">       
+        <button class= "confir tray4" type="button"     style= "background-color:#000;
+  color: ; margin-top: -10%; z-index:20; background: ; " onclick="myFunction25(); a25();b25();c25();d25();"/>Confirmar</button>
+
+<div class= "conD">
+<p class= "conE" >Em estoque</p>
+<p class= "con" id="demoL25" ></p></div></div></div></div>
+
+<div class="side1" style="background-color:#0000;">
+<div class="card" id= "A26" style= "background: ;">
+            <img src="https://www.dropbox.com/s/2hdpo240gv7i24j/moo4.png?raw=1" alt="">
+            <p class="title">MOR-V3</p>
+
+<p class="code" style="font-size:1.7rem;">MOR-V3</p>
+            <p class="description" style= font-size:1.3rem;">Método para Organista-Volume 3</p>
+            <p class="price">R$8</p>
+     
+
+<div class= "conf" style= "margin-top: -3.5rem; margin-left: 2%;">       
+        <button class= "confir tray4" type="button"     style= "background-color:#000;
+  color: ; margin-top: -10%; z-index:20; background: ; " onclick="myFunction26(); a26();b26();c26();d26();"/>Confirmar</button>
+
+<div class= "conD" style= "margin-top: 2.9rem; margin-left: -1.3rem;">
+<p class= "conE" >Em estoque</p>
+<p class= "con" id="demoL26" ></p></div></div></div></div>
+
+
+ <div class="side2" id= "A27" style="background-color:#0000;">    
+<div class="card" id= "" style= "background: ;">
+            <img src="https://www.dropbox.com/s/qziaxrjwozaz50p/Pho.png?raw=1" alt="">
+            <p class="title">MOR-V4</p>
+<p class="code" style="font-size:1.7rem;">MOR-V4</p>
+            <p class="description" style= font-size:1.3rem;"> Método para Organista-Volume 4</p>
+            <p class="price">R$8</p>
+            
+        <div class= "conf" style= "margin-top: -3.5rem; margin-left: 2%;">       
+        <button class= "confir tray4" type="button"     style= "background-color:#000;
+  color: ; margin-top: -10%; z-index:20; background: ; " onclick="myFunction27(); a27();b27();c27();d27();"/>Confirmar</button>
+
+<div class= "conD">
+<p class= "conE" >Em estoque</p>
+<p class= "con" id="demoL27" ></p></div></div></div></div>
+
+
+<div id= "AB6" style= "padding: 2%; width: 100%; height:2.5rem; background-color: #1B404D; color: white;">Véus</div>
+
+
+  <div class="side1" style="background-color:#0000;">
+<div class="card" id= "A28" style= "background: ;">
+            <img src="https://www.dropbox.com/s/qziaxrjwozaz50p/Pho.png?raw=1" alt="">
+            <p class="title">Véu</p>
+
+<p class="code" style="font-size:1.7rem;">VA-A</p>
+            <p class="description" style= font-size:1.3rem;">Véu de algodão, para adulto</p>
+            <p class="price">R$12</p>
+     
+
+<div class= "conf" style= "margin-top: -3.5rem; margin-left: 2%;">       
+        <button class= "confir tray4" type="button"     style= "background-color:#000;
+  color: ; margin-top: -10%; z-index:20; background: ; " onclick="myFunction28(); a28();b28();c28();d28();"/>Confirmar</button>
+
+<div class= "conD" style= "margin-top: 2.9rem; margin-left: -1.3rem;">
+<p class= "conE" style= "margin-top: rem; background: #0000; width: 8rem; height: rem; margin-left:18%; border-radius: 80px 80px 80px 80px; color: ; text-align: center; border: solid 1px;">Em estoque</p>
+<p class= "con" id="demoL28" style= "margin-left: 5%; margin-top: -2.6rem; background-color: white; padding:0.4rem; width: 12.9%; border: solid 1px; border-radius: 80px 80px 80px 80px; text-align: center;"></p></div></div>
+</div>
+</div>
+
+ <div class="side2" id= "A29" style="background-color:#0000;">    
+<div class="card" id= "" style= "background: ;">
+            <img src="https://www.dropbox.com/s/qziaxrjwozaz50p/Pho.png?raw=1" alt="">
+            <p class="title">Véu</p>
+<p class="code" style="font-size:1.7rem;">VA-C</p>
+            <p class="description" style= font-size:1.3rem;">Véu de algodão, para criança</p>
+            <p class="price">R$10</p>
+            
+        <div class= "conf" style= "margin-top: -3.5rem; margin-left: 2%;">       
+        <button class= "confir tray4" type="button"     style= "background-color:#000;
+  color: ; margin-top: -10%; z-index:20; background: ; " onclick="myFunction29(); a29();b29();c29();d29();"/>Confirmar</button>
+
+<div class= "conD" style= "margin-top: 2.9rem; margin-left: -1.3rem;">
+<p class= "conE" style= "margin-top: rem; background: #0000; width: 8rem; height: rem; margin-left:18%; border-radius: 80px 80px 80px 80px; color: ; text-align: center; border: solid 1px;">Em estoque</p>
+<p class= "con" id="demoL29" style= "margin-left: 5%; margin-top: -2.6rem; background-color: white; padding:0.4rem; width: 12.9%; border: solid 1px; border-radius: 80px 80px 80px 80px; text-align: center;"></p></div></div>
+</div>
+</div>
+
+
+</div></div></div></div>
+
+<div style= "padding: 2%; width: 100%; background-color: #1B404D;"></div>
+
+
+
+<div class="tray2b" style= "position:relative; z-index:190; margin-left: %; margin-top: rem;">
+  <div class="count">
+  </div>
+<i class="fa fa-remove fa-2x" aria-hidden="true"><p class= "trayN"></p></i>
+ </div>
+<h2 style= "text-align: center;">Limpar Hitórico Local</h2>
+<p style= "text-align: center;">Caso queira remover Histórico Local clicar no botão Remover no canto superior.</p>
+
+<p>Clique no botão abaixo para imprimir esta página.</p>
+
+<button onclick="window.print()" class= "iv openpopup3" style= "background:; margin-top:rem;">Print</button>
+<button type="submit" onClick="refreshPage()" class="openpopup3" style= "background:; margin-top:rem;">Refresh Button</button>
+
+
+
+<div style= "padding: 2%; width: 100%; background-color: #1B404D;"></div>
+
+<footer>
+<h1>"Deus Abençoe!"</h1>
+</footer>
+</div>
+</div>
+
+<!--<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script> -->    
+ 
+
+<script src="myScript.js"></script>
+
+<script>
+
+</script>       
+</body>
+
+<script>
+/*https://codepen.io/irwingb1979/pen/poWpzPX
+Copyright (c) 2022 by Irwin (https://codepen.io/irwingb1979/pen/poWpzPX)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*/
+
+/*https://codepen.io/leonardo-dev/details/XgKJmG
+Copyright (c) 2022 by Leonardo de Melo (https://codepen.io/leonardo-dev/pen/XgKJmG)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+
+/*Copyright (c) 2022 by aziz (https://codepen.io/3azozAlansari/pen/yLpvXdy)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+/*Copyright (c) 2022 by Bikash Panda (https://codepen.io/phpcodertech/pen/yLMrJvv)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+/*https://codepen.io/djoba/embed/XOMQPP/?theme-id=modal
+Copyright (c) 2022 by djoba (https://codepen.io/djoba/pen/XOMQPP)
+Fork of an original work Simple shopping cart with localstorage (https://codepen.io/ShutikAlexander/pen/pKzgMZ
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+/*https://codepen.io/Su1312/pen/bGEQgKv https://stackoverflow.com/questions/63012352/attach-file-to-gmail-using-only-html-and-javascript
+
+Copyright (c) 2022 by Maximus (https://codepen.io/Su1312/pen/bGEQgKv)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+
+/*https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_webstorage_local_clickcount*/
+
+/*https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_win_localstorage2 https://www.w3schools.com/jsref/prop_win_localstorage.asp*/
+
+/*https://codepen.io/Su1312/pen/bGEQgKv https://stackoverflow.com/questions/63012352/attach-file-to-gmail-using-only-html-and-javascript*/
+
+/*Copyright (c) 2022 by saeed (https://codepen.io/madsadi/pen/RwVQpjX)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*/
+
+/*Copyright (c) 2022 by sujanchhetri (https://codepen.io/sujanchhetri/pen/BaBRQqv)
+Fork of an original work Build a JavaScript Calculator  (https://codepen.io/zynzun/pen/QEdWjV
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+
+/*https://www.demo2s.com/javascript/javascript-dom-element-getelementsbyclassname-method.html*/
+
+/*Copyright (c) 2022 by Tim (https://codepen.io/betatim/pen/abpjwaZ)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+
+/*https://codepen.io/Su1312/pen/bGEQgKv https://stackoverflow.com/questions/63012352/attach-file-to-gmail-using-only-html-and-javascript*/
+
+/*Copyright (c) 2022 by Dean (https://codepen.io/josdea/pen/RRWQrJ)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+
+/*https://stackoverflow.com/questions/4148499/how-to-style-a-checkbox-using-css*/
+
+
+</script>
+</html>
+
