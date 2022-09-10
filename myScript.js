@@ -188,79 +188,79 @@ function myFunction20() {
   let x = document.getElementById("myDIV");
   x.getElementsByClassName("child")[0].value = "(HM-) Hinário de música. (R$25)";
 }
-</script>
 
-<script>
+
+
 function myFunction21() {
   let x = document.getElementById("myDIV");
   x.getElementsByClassName("child")[0].value = "(HM-) Hinário de música. (R$25)";
 }
-</script>
 
-<script>
+
+
 function myFunction22() {
   let x = document.getElementById("myDIV");
   x.getElementsByClassName("child")[0].value = "(MOO-) Manual Orientação Orquestral. (R$5)";
 }
-</script>
 
-<script>
+
+
 function myFunction23() {
   let x = document.getElementById("myDIV");
   x.getElementsByClassName("child")[0].value = "(MTS) Método de Teoria e Solfejo. (R$5)";
 }
-</script>
 
-<script>
+
+
 function myFunction24() {
   let x = document.getElementById("myDIV");
   x.getElementsByClassName("child")[0].value = "(MOR-V1) Método. (R$8)";
 }
-</script>
 
-<script>
+
+
 function myFunction25() {
   let x = document.getElementById("myDIV");
   x.getElementsByClassName("child")[0].value = "(MOR-V2) Método. (R$25)";
 }
-</script>
 
-<script>
+
+
 function myFunction26() {
   let x = document.getElementById("myDIV");
   x.getElementsByClassName("child")[0].value = "(MOR-V3) Método. (R$8)";
 }
-</script>
 
-<script>
+
+
 function myFunction27() {
   let x = document.getElementById("myDIV");
   x.getElementsByClassName("child")[0].value = "(MOR-V4) Método. (R$8)";
 }
-</script>
 
-<script>
+
+
 function myFunction28() {
   let x = document.getElementById("myDIV");
   x.getElementsByClassName("child")[0].value = "(VA-A) Véu para adulto. (R$25)";
 }
-</script>
 
-<script>
+
+
 function myFunction29() {
   let x = document.getElementById("myDIV");
   x.getElementsByClassName("child")[0].value = "(VA-C) Véu para criança. (R$25)";
 }
-</script>
 
-<script>
+
+
 function myFunction30() {
   let x = document.getElementById("myDIV");
   x.getElementsByClassName("child")[0].value = "(V-) Véu. (R$35)";
 }
-</script>
 
-<script>
+
+
 function myFunction31() {
   let x = document.getElementById("myDIV");
   x.getElementsByClassName("child")[0].value = "(V-) Véu. (R$35)";
@@ -1020,7 +1020,7 @@ function a1(){
   }
   document.getElementById("a1").innerHTML = localStorage.clickcount1a;}
 
-</script><script>
+
 b1();
 function b1() {
   if (localStorage.clickcount1b) {
@@ -1031,7 +1031,7 @@ function b1() {
   document.getElementById("b1").innerHTML = localStorage.clickcount1b;
 document.getElementById("demoL1").innerHTML = localStorage.clickcount1b;}
 
-</script><script>
+
 bz1();
 function bz1() {
   if (localStorage.clickcount1b) {
@@ -1042,7 +1042,7 @@ function bz1() {
   document.getElementById("b1").innerHTML = localStorage.clickcount1b;
 document.getElementById("demoL1").innerHTML = localStorage.clickcount1b;}
 
-</script><script>
+
 c1();
 function c1(){
 	
@@ -1053,7 +1053,7 @@ function c1(){
   }
   document.getElementById("c1").innerHTML = localStorage.clickcount1c;}
 
-</script><script>
+
 cz1();
 function cz1(){
 	 if (localStorage.clickcount1c) {
@@ -1063,7 +1063,7 @@ function cz1(){
   }
   document.getElementById("c1").innerHTML = localStorage.clickcount1c;}
 
-</script><script>
+
 d1();
 function d1(){
 	
@@ -1074,7 +1074,7 @@ function d1(){
   }
   document.getElementById("d1").innerHTML = localStorage.clickcount1d;}
 
-</script><script>
+
 dz1();
 function dz1(){
 	 if (localStorage.clickcount1d) {
@@ -1085,11 +1085,11 @@ function dz1(){
   document.getElementById("d1").innerHTML = localStorage.clickcount1d;
 }
 
-</script>
 
 
 
-<script>
+
+
 az2();
 function az2() {
   if (localStorage.clickcount2a) {
@@ -1109,7 +1109,7 @@ function a2(){
   }
   document.getElementById("a2").innerHTML = localStorage.clickcount2a;}
 
-</script><script>
+
 b2();
 function b2() {
   if (localStorage.clickcount2b) {
@@ -1120,7 +1120,7 @@ function b2() {
   document.getElementById("b2").innerHTML = localStorage.clickcount2b;
 document.getElementById("demoL2").innerHTML = localStorage.clickcount2b;}
 
-</script><script>
+
 bz2();
 function bz2() {
   if (localStorage.clickcount2b) {
@@ -1131,7 +1131,7 @@ function bz2() {
   document.getElementById("b2").innerHTML = localStorage.clickcount2b;
 document.getElementById("demoL2").innerHTML = localStorage.clickcount2b;}
 
-</script><script>
+
 c2();
 function c2(){
 	
@@ -1142,7 +1142,7 @@ function c2(){
   }
   document.getElementById("c2").innerHTML = localStorage.clickcount2c;}
 
-</script><script>
+
 cz2();
 function cz2(){
 	 if (localStorage.clickcount2c) {
@@ -1152,7 +1152,7 @@ function cz2(){
   }
   document.getElementById("c2").innerHTML = localStorage.clickcount2c;}
 
-</script><script>
+
 d2();
 function d2(){
 	
@@ -1163,7 +1163,7 @@ function d2(){
   }
   document.getElementById("d2").innerHTML = localStorage.clickcount2d;}
 
-</script><script>
+
 dz2();
 function dz2(){
 	 if (localStorage.clickcount2d) {
@@ -1174,9 +1174,9 @@ function dz2(){
   document.getElementById("d2").innerHTML = localStorage.clickcount2d;
 }
 /*https://stackoverflow.com/questions/52843761/two-onclick-events-with-one-button*//*http://jsfiddle.net/89s2wkny/*/
-</script>
 
-<script>
+
+
 az3();
 function az3() {
   if (localStorage.clickcount3a) {
